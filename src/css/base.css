@@ -14,10 +14,13 @@
     --section-second-background-color: #F0ECD6;
     --background-button-color: rgba(0, 0, 0, 0.4);
     --contact-color: #828282;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 
 .container  {
+    max-width: 414px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -26,22 +29,32 @@
 
 @media screen and (min-width: 414px) {
     .container {
-    max-width: 384px;
+    width: 414px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .container {
-            max-width: 930px;
+            width: 960px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1110px;
+        width: 1140px;
     }
 }
 
-.body {
-    colo
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
