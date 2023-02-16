@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/modal-window-book-room.css">
+</head>
+<body>
+    <div class="backdrop is-hidden" 
+        data-modal>
+        <div class="modal">
+            <button 
+                type="button" 
+                class="button modal-close-button" 
+                data-modal-close >
+                <svg class="modal-close-icon" 
+                    width="24" 
+                    height="24">
+                    <use href=""></use>
+                </svg>
+            </button>
+            <h2 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+                <form class="modal-form">
+                    <div class="modal-info-tel">
+                        <div class="modal-field">
+                            <label 
+                                for="user-name" 
+                                class="input-text">
+                                <div class="input-wrap">
+                                    <input 
+                                    type="text"
+                                    class="modal-input"
+                                    name="user-name"
+                                    placeholder="Ваше ім’я"
+                                    required
+                                    />
+                                </div>
+                            </label>
+                            <div class="input-comment">
+                                <p>На кого забронювати номер?</p>
+                            </div>
+                        </div>
+        
+                        <div class="modal-field">
+                            <label 
+                                for="user-phone" 
+                                class="input-text">
+                                <div class="input-wrap">
+                                    <input 
+                                    type="tel"
+                                    class="modal-input"
+                                    name="user-phone"
+                                    placeholder="+38 (___) ___-__-__"
+                                    required
+                                    />
+                                </div>
+                            </label>
+                            <div class="input-comment">
+                                <p>Номер телефону</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="modal-room-select">
+                        <label 
+                            for="select-room" 
+                            class="">
+                            <div class="input-wrap">
+                                <select 
+                                    name="" 
+                                    id="select-room">
+                                    <option value="two-rooms">Двомісний люкс</option>
+                                </select>
+                            </div>
+                        </label>
+                        <div class="input-comment">
+                            <p>Категорія номеру</p>
+                        </div>
+                    </div>
+    
+                    <div class="modal-date-select">
+                        <div class="modal-field">
+                            <label 
+                                for="select-date" 
+                                class="">
+                                <div class="input-wrap">
+                                    <select 
+                                        name="" 
+                                        id="select-date-in">
+                                        <option value="today">Сьогодні</option>
+                                    </select>
+                                </div>
+                            </label>
+                            <div class="input-comment">
+                                <p>Дата заїзду</p>
+                            </div>
+                        </div>
+        
+                        <div class="modal-field">
+                            <label 
+                                for="select-date" 
+                                class="">
+                                <div class="input-wrap">
+                                    <select 
+                                        name="" 
+                                        id="select-date-out">
+                                        <option value="today">Сьогодні</option>
+                                    </select>
+                                </div>
+                            </label>
+                            <div class="input-comment">
+                                <p>Дата виїзду</p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <button 
+                        type="submit" 
+                        class="modal-submit-button button">ОФОРМИТИ БРОНЮВАННЯ
+                    </button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
