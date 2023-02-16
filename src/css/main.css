@@ -5,9 +5,15 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-
-:root {
+@import url('./base.css');
+@import url('./header.css');
+@import url('./restraunt-main-page.css');
+@import url('./details-restraunt-main-page.css');
+@import url('./hotel-main-page.css');
+@import url('./details-hotel-main-page.css');
+@import url('./contact-main-page.css');
+@import url('./footer.css');
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -21,4 +27,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
