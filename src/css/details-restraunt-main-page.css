@@ -64,11 +64,11 @@
   color: var(--description-section-accent-color);
 }
 /* Це медіа туту не потрібно, якщо виправити БЕЙС СіСС */
-@media screen and (min-width: 414px) {
+/* @media screen and (min-width: 414px) {
   .container {
     max-width: unset;
   }
-}
+} */
 @media screen and (min-width: 1024px) {
   .abrest {
     padding-top: 0;
