@@ -1,10 +1,10 @@
-.container {
+.luxe-section .container {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     position: relative;
 }
-.section {
+.luxe-section {
     background-color: var(--section--first-background-color);
     padding-top: 32px;
     padding-bottom: 32px;
@@ -100,7 +100,7 @@
 }
 
 @media screen and (min-width: 414px) {
-    .container {
+    .luxe-section .container {
         max-width: 414px;
         margin-left: auto;
         margin-right: auto;
@@ -108,13 +108,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container {
+    .luxe-section .container {
         max-width: 1024px;
         padding-left: 47px;
         padding-right: 47px;
     }
 
-    .section {
+    .luxe-section {
         padding-top: 62px;
         padding-bottom: 145px;
     }
@@ -158,11 +158,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .section {
+    .luxe-section {
             padding-top: 72px;
             padding-bottom: 182px;
         }
-    .luxe-container {
+    .luxe-section .container {
         max-width: 1280px;
         padding-left: 85px;
         padding-right: 85px;
@@ -181,11 +181,11 @@
         margin-bottom: 260px;
     }
 
-    .luxe-img-container {
+    .luxe-section .container .luxe-img-container {
         width: 460px;
         height: 574px;
         position: absolute;
         top: -118px;
-        right: 0;
+        right: 180px;
     }
 }
