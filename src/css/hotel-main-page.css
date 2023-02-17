@@ -25,14 +25,15 @@
 
     @media (min-width: 1024px)
 {
-    max-width: 1024px;
+    max-width: 960px;
     padding-left: 47px;
    padding-right: 47px;
    padding-bottom: 32px;
 }
 
 @media (min-width: 1280px){
-    max-width: 1280px;
+
+    max-width: 1140px;
    padding-left: 85px;
    padding-right: 85px;
    padding-bottom: 50px;
