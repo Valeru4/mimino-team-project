@@ -17,7 +17,7 @@
 }
 .abrest-logo {
   margin-bottom: 12px;
-  font-family: 'Film P3', sans-serif;
+  font-family: 'FilmP3Bold', sans-serif;
 
   font-weight: 700;
   font-size: 40px;
@@ -64,11 +64,11 @@
   color: var(--description-section-accent-color);
 }
 /* Це медіа туту не потрібно, якщо виправити БЕЙС СіСС */
-@media screen and (min-width: 414px) {
+/* @media screen and (min-width: 414px) {
   .container {
     max-width: unset;
   }
-}
+} */
 @media screen and (min-width: 1024px) {
   .abrest {
     padding-top: 0;
