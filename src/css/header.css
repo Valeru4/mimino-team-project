@@ -77,6 +77,7 @@ ul a {
 }
 
 .navigation-list_svg {
+    display: inline-block;
     width: 24px;
     height: 24px;
     margin-bottom: 14px;
@@ -188,10 +189,11 @@ ul a {
     }
 
     .navigation-list_svg {
-        width: 12px;
-        height: 20px;
+        width: 24px;
+        height: 40px;
         margin-right: auto;
-        margin-bottom: 0;
+        margin-bottom: -10px;
+        margin-top: -6px;
     }
 
     .address {
