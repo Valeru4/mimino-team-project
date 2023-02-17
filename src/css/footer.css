@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+footer {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: var(--accent-yellow-color);
+    background-color: var(--background-footer-color);
+}
+
+.footer__blocks {
+    display: flex;
+}
+
+.footer-logo {
+    font-family: FilmP3Bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc (43 / 40);
+    letter-spacing: 0.3em;
+}
+
+.footer--navigation,
+.footer__soclinks {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc (24 / 20);
+    letter-spacing: 0.02em;
+}
+
