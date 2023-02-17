@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(138, 127, 113);
+}
+
+.container {
+    min-width: 414px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(98, 98, 95);
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+/*---Mobile---*/
+
+@media screen and (min-width: 414px) {
+    .container {
+        width: 414px;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.navigation-list_span {
+    display: none;
+}
+
+.media {
+    display: none;
+}
+
+.logo {
+    text-decoration: none;
+    padding-top: 16px;
+    margin-right: auto;
+    color: white;
+    font-style: 'Film P3, sans-serif';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.08;
+    margin-right: 52px;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: baseline;
+    padding-top: 28px;
+}
+
+.navigation-list_item {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-list_item:first-child {
+    margin-right: 26px;
+}
+
+.navigation-list_title {
+    color: #F3C653;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.nav-phone {
+    display: block;
+}
+
+.navigation-list_svg {
+    width: 15px;
+    height: 24px;
+    margin-bottom: 14px;
+    margin-right: 7px;
+}
+
+.navigation-list_title {
+    margin-right: 12px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 11px;
+    width: 210px;
+    height: 47px;
+    margin-left: auto;
+    border-radius: 2px;
+    border: 1px solid rgba(243, 198, 83, .7);
+}
+
+.address-pin {
+    margin-right: 13px;
+    width: 10px;
+    height: 15px;
+}
+
+.address p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 3;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    width: 179px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: left;
+    color: #E5E5E5;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .container {
+        width: 1024px;
+        padding-left: 47px;
+        padding-right: 47px;
+    }
+
+   
+
+    .navigation-list {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .navigation-list_span {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #FFFFFF;
+    }
+    
+    .logo {
+        margin-right: 207px;
+        padding-top: 24px;
+        padding-bottom: 33px;
+    }
+
+    .navigation-list_item {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-list_title {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-right: 32px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+   
+
+    .navigation-list_item:first-child {
+        margin-right: 72px;
+    }
+
+    .navigation-list_phone {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 8px;
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 134px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        border: 1px solid rgba(243, 198, 83, .7);
+        border-radius: 2px;
+    }
+
+    .navigation-list_svg {
+        width: 12px;
+        height: 20px;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+    .address {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1280px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    .navigation {
+        margin-right: 0;
+    }
+
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .media-logo {
+        width: 22px;
+        height: 22px;
+    }
+
+   
+
+    .media .media-item + .media-item {
+        margin-left: 23px;
+    }
+
+}
