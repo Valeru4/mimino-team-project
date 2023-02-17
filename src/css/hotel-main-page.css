@@ -266,4 +266,8 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 .aboutourhotel-icon{
     margin-right: 32px;
 }
+.aboutourhotel-button{
+    background: none;
+    border: none;
+}
 
