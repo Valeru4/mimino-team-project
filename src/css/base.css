@@ -18,9 +18,14 @@
 
 }
 
+@font-face {
+    font-family: FilmP3Bold;
+    src: url('../fonts/FilmP3Bold.ttf');
+    src: url('../fonts/FilmP3Bold.woff');
+}
 
 .container  {
-    max-width: 414px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -29,19 +34,19 @@
 
 @media screen and (min-width: 414px) {
     .container {
-    width: 414px;
+    max-width: 414px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .container {
-            width: 960px;
+        max-width: 1024px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
-        width: 1140px;
+        max-width: 1280px;
     }
 }
 
@@ -58,3 +63,5 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
