@@ -137,17 +137,19 @@
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
 
-    background: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 
     border: 2px solid #FFFFFF;
     border-radius: 25px;
+    transition: background-color var(--animation), 
+                border var(--animation);
+
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: var(--base-white-color);
+    background-color: var(--base-white-color);
     border: 2px solid var(--accent-yellow-color);
-    border-radius: 25px;
 }
 
 .hero-social-list {
