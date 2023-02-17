@@ -25,7 +25,7 @@
     margin-right: auto;
 
     padding-top: 181px;
-    padding-bottom: 22px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -49,8 +49,8 @@
     border-radius: 2px;
 
     display: flex;
-    justify-content: center;
-    gap: 13px;
+
+    gap: 8px;
     align-items: center;
     margin-left: auto;
 
@@ -59,7 +59,6 @@
 
 .hero-location-icon {
     fill: var(--accent-yellow-color);
-    /*змінити на зміну*/
 
     margin-left: 4px;
 
@@ -196,29 +195,26 @@
         font-size: 36px;
         line-height: calc(41 / 36);
 
-        margin-bottom: 145px;
+        margin-bottom: 137px;
     }
 
-    .hero-btn-list {
+    .hero-wrap{
         display: flex;
-        justify-content: end;
-        align-items: center;
-        flex-direction: row;
-        gap: 40px;
+        justify-content: space-between;
+        align-items: flex-end;
 
-        margin-bottom: 0;
+        margin-bottom: 25px;
     }
 
     .hero-adress-box {
-        top: 600px;
-        right: inherit;
-        left: 47px;
-        margin-bottom: 0;
+        position: static;
 
+        margin-bottom: 0;
         width: 285px;
         height: 56px;
 
         gap: 16px;
+        margin-left: 0;
     }
 
     .hero-adress-link {
@@ -235,6 +231,25 @@
         width: 24px;
         height: 24px;
     }
+
+    .hero-btn-list {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+
+        margin-bottom: 0;
+    }
+
+    .hero-btn {
+        background: var(--base-black-color);
+        border: 2px solid var(--base-white-color);
+        border-radius: 25px;
+
+        padding: 14px 24px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -275,9 +290,22 @@
         display: none;
     }
 
+    .hero-wrap{
+        margin-bottom: 0;
+    }
+
     .hero-adress-box {
         top: 600px;
         right: inherit;
         left: 85px;
     }
+
+    .hero-btn {
+        background: rgba(0, 0, 0, 0.4);
+        border: 2px solid var(--base-white-color);
+        border-radius: 25px;
+
+        padding: 14px 35px;
+    }
+
 }
