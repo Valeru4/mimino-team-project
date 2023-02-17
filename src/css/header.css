@@ -77,11 +77,12 @@ ul a {
 }
 
 .navigation-list_svg {
-    width: 15px;
+    width: 24px;
     height: 24px;
     margin-bottom: 14px;
     margin-right: 7px;
 }
+
 
 .navigation-list_title {
     margin-right: 12px;
@@ -101,8 +102,8 @@ ul a {
 
 .address-pin {
     margin-right: 13px;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     fill: #F3C653;
 }
 
@@ -127,14 +128,11 @@ ul a {
         width: 1024px;
         padding-left: 47px;
         padding-right: 47px;
-    }
-
-   
+    }   
 
     .navigation-list {
         padding-top: 30px;
         padding-bottom: 30px;
-
     }
 
     .navigation-list_span {
@@ -167,8 +165,6 @@ ul a {
         line-height: 1.2;
         letter-spacing: 0.02em;
     }
-
-   
 
     .navigation-list_item:first-child {
         margin-right: 72px;
