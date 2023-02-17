@@ -13,12 +13,38 @@
     overflow: hidden;
 }
 
+.container-aboutourhotel {
+    max-width: 414px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--section--first-background-color);
+    padding-bottom: 20px;
+
+    @media (min-width: 1024px)
+{
+    max-width: 1024px;
+    padding-left: 47px;
+   padding-right: 47px;
+   padding-bottom: 32px;
+}
+
+@media (min-width: 1280px){
+    max-width: 1280px;
+   padding-left: 85px;
+   padding-right: 85px;
+   padding-bottom: 50px;
+      
+   }
+}
+
+
+
 .aboutourhotel{
     display: grid;
     grid-template-columns: 50% 50%;
-    max-width: 414px;
-    background: var(--section--first-background-color);
-    padding-bottom: 20px;
     grid-template-areas:
         'text-aboutourhotel text-aboutourhotel'
         'aboutourhotel-img aboutourhotel-img';
@@ -26,21 +52,10 @@
     @media (min-width: 1024px)
    {
    
-    max-width: 1024px;
-    padding-left: 47px;
-   padding-right: 47px;
-   padding-bottom: 32px;
    grid-template-areas:
         'aboutourhotel-img text-aboutourhotel';
    }
 
-   @media (min-width: 1280px){
-    max-width: 1280px;
-   padding-left: 85px;
-   padding-right: 85px;
-   padding-bottom: 50px;
-      
-   }
 }
 
 .aboutourhotel-img{
