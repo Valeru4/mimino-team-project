@@ -1,0 +1,184 @@
+/* --------15 HOTEL - 1 ROOM FOR 2 ADULTS-------- */
+.roomfortwo {
+  background-color: var(--section--first-background-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.roomfortwo-pre-logo {
+  margin-bottom: 8px;
+  font-family: 'Times New Roman', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+
+  color: var(--subtitle-section-text-color);
+}
+.roomfortwo-logo {
+  margin-bottom: 32px;
+  font-family: 'Film P3Bold', sans-serif;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+
+  color: var(--logo-section-color);
+}
+.roomfortwo-title {
+  margin-bottom: 12px;
+  font-family: 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--base-black-color);
+}
+.roomfortwo-wrap-text {
+  max-width: 258px;
+  margin-bottom: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: var(--description-section-color);
+}
+.roomfortwo-pic-wrap {
+  width: 244px;
+  margin-left: auto;
+  margin-bottom: 298px;
+
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.roomfortwo-link,
+.roomfortwo-prices-btn {
+  display: block;
+  width: 236px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-yellow-color);
+  background: var(--base-black-color);
+  
+  border: 2px solid #fffdee;
+  border-radius: 25px;
+  cursor: pointer;
+
+  transition: background-color var(--animation), color var(--animation);
+}
+.roomfortwo-link {
+  display: block;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.roomfortwo-prices-btn {
+  margin-top: 16px;
+}
+.roomfortwo-link:hover,
+.roomfortwo-prices-btn:hover,
+.roomfortwo-link:focus,
+.roomfortwo-prices-btn:focus {
+  background-color: var(--accent-yellow-color);
+  color: var(--base-black-color);
+}
+
+/* Це медіа туту не потрібно, якщо виправити БЕЙС СіСС */
+@media screen and (min-width: 414px) {
+  .container {
+    max-width: unset;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .roomfortwo {
+    padding-top: 0;
+    padding-bottom: 145px;
+  }
+  .roomfortwo-pre-logo {
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.16;
+  }
+  .roomfortwo-logo {
+    margin-bottom: 62px;
+
+    font-size: 64px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+  }
+  .roomfortwo-title {
+    margin-bottom: 16px;
+
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .roomfortwo-wrap-text {
+    max-width: 439px;
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .roomfortwo-wrap {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+
+    margin-bottom: 57px;
+  }
+  .roomfortwo-pic-wrap {
+    position: relative;
+    transform: translateY(-32px);
+
+    width: 400px;
+    margin-left: 0;
+    margin-bottom: 0;
+    flex-shrink: 0;
+
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    border-radius: unset;
+  }
+  .roomfortwo-link,
+  .roomfortwo-prices-btn {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .roomfortwo {
+    padding-top: 0;
+    padding-bottom: 182px;
+  }
+  .roomfortwo-logo {
+    margin-bottom: 72px;
+  }
+  .roomfortwo-title {
+    margin-bottom: 24px;
+
+    font-size: 36px;
+    line-height: 1.14;
+  }
+  .roomfortwo-wrap {
+    gap: 48px;
+    margin-bottom: 88px;
+  }
+  .abrest-wrap-text {
+    max-width: 400px;
+  }
+  .roomfortwo-pic-wrap {
+    transform: translateY(-33px);
+    width: 460px;
+    border-radius: 2px;
+  }
+}
