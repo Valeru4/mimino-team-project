@@ -123,7 +123,7 @@
     }
 
     .room_3-section {
-        padding-top: 62px;
+        padding-top: 66px;
         padding-bottom: 145px;
     }
 
@@ -175,7 +175,7 @@
 @media screen and (min-width: 1280px) {
     .room_3-section {
             padding-top: 72px;
-            padding-bottom: 182px;
+            padding-bottom: 196px;
         }
     .room_3-section .container {
         max-width: 1280px;
@@ -200,7 +200,7 @@
 
     .room_3-section-text {
         margin-bottom: 260px;
-        margin-right: 91px;
+        margin-right: 110px;
     }
 
     .room_3-img-container {
