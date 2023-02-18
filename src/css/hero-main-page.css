@@ -268,7 +268,7 @@
 @media screen and (min-width: 1280px) {
 
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(.nn./img/hero-main-page/homepage-desktop-1x.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-main-page/homepage-desktop-1x.jpg);
         padding-top: 164px;
         padding-bottom: 64px;
     }
