@@ -1,3 +1,23 @@
+/*:root {
+    --base-white-color: #FFFFFF;
+    --base-black-color: #000000;
+    --accent-yellow-color: #F3C653;
+    --header-adress-text-color: #E5E5E5;
+    --subtitle-section-text-color: #B4B4B4;
+    --logo-section-color: #494848;
+    --description-section-color: #7A7A7A;
+    --description-section-accent-color:  #C79002;
+    --description-section-text-color: #BABABA;
+    --background-footer-color: #0E0C07;
+    --section--first-background-color: #FFFDEE;
+    --section-second-background-color: #F0ECD6;
+    --background-button-color: rgba(0, 0, 0, 0.4);
+    --contact-color: #828282;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}*/
+
+
 .body {
     font-family: 'Montserrat', sans-serif;
   }
@@ -29,11 +49,11 @@ ul a {
 
 /*---Mobile---*/
 
-@media screen and (min-width: 414px) {
+/*@media screen and (min-width: 414px) {
     .container {
         width: 414px;
     }
-}
+}*/
 
 .navigation {
     display: flex;
@@ -53,12 +73,12 @@ ul a {
     text-decoration: none;
     padding-top: 16px;
     margin-right: auto;
-    color: white;
+    color: var(--base-white-color);
     font-family: 'Mimiho';
     font-style: normal;
     font-size: 36px;
     line-height: 1.08;
-    margin-right: 52px;
+
 }
 
 .navigation-list {
@@ -77,7 +97,7 @@ ul a {
 }
 
 .navigation-list_title {
-    color: #F3C653;
+    color: var(--accent-yellow-color);
     font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 500;
@@ -116,7 +136,7 @@ ul a {
     margin-right: 13px;
     width: 24px;
     height: 24px;
-    fill: #F3C653;
+    fill: var(--accent-yellow-color);
 }
 
 .address p {
@@ -130,15 +150,15 @@ ul a {
     font-weight: 400;
     line-height: 1.25;
     text-align: left;
-    color: #E5E5E5;
+    color: var(--header-adress-text-color);
 }
 
 
 
 @media screen and (min-width: 1024px){
-    .container {
+    /*.container {
         width: 1280px;
-    }   
+    }   */
 
     header {
         padding-top: 30px;
@@ -155,7 +175,7 @@ ul a {
         font-size: 14px;
         font-weight: 400;
         line-height: 1.2;
-        color: #FFFFFF;
+        color: var(--base-white-color);
     }
     
     .logo {
@@ -217,10 +237,10 @@ ul a {
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
+    /*.container {
         width: 1140px;
         
-    }
+    }*/
 
     .navigation {
         margin-right: 0;
@@ -235,7 +255,7 @@ ul a {
     .media-logo {
         width: 22px;
         height: 22px;
-        fill: #F3C653;
+        fill: var(--accent-yellow-color);
     }
 
    
