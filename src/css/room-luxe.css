@@ -82,6 +82,7 @@
     margin: 0 auto 16px;
     display: block;
     cursor: pointer;
+    text-align: center;
     transition: background-color var(--animation), border var(--animation);
 }
 
