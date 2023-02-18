@@ -176,6 +176,11 @@ margin-bottom: 20px;
 
 
 }
+.amenities-button:hover{
+    background: #F3C653;
+border: 1px solid #F3C653;
+color: #000;
+}
 
 
 .amenities-caption{
@@ -186,6 +191,7 @@ font-size: 16px;
 line-height: 20px;
 letter-spacing: 0.02em;
 color:var(--description-section-accent-color);
+fill: var(--description-section-accent-color);
 display: flex;
 padding-left: 16px;
 padding-right: 16px;
@@ -197,7 +203,15 @@ align-items: center;
 }
 
 .amenities-icon{
-    fill: var(--description-section-accent-color);
-    margin-left: 12px;
     
+    margin-left: 12px;
+    fill: var(--description-section-accent-color);
+}
+
+.amenities-caption:hover{
+    color: var( --accent-yellow-color) ;
+    
+}
+.amenities-icon:hover{
+    fill: var( --accent-yellow-color);
 }
