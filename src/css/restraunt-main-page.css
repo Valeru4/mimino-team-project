@@ -1,6 +1,6 @@
 .details-restaurant {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant.jpg);
   color: var(--base-white-color);
   padding: 48px 0 96px 0;
   position: relative;
@@ -8,6 +8,22 @@
   background-size: cover;
   background-position: center;
 }
+
+/*@media screen and  (min-device-pixel-ratio:  2) and (max-width:1024px),*/
+/*  screen and  (min-resolution: 192dpi) and (max-width:1024px),*/
+/*  screen and  (min-resolution: 2dppx) and (max-width:1024px) {*/
+/*  .details-restaurant {*/
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-tablet@2x.jpg);*/
+/*  }*/
+/*}*/
+
+/*@media screen and  (min-device-pixel-ratio:  2) and (min-width:1280px),*/
+/*screen and  (min-resolution: 192dpi) and (max-width:1280px),*/
+/*screen and  (min-resolution: 2dppx) and (max-width:1280px) {*/
+/*  .details-restaurant {*/
+/*    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-desktop@2x.jpg);*/
+/*  }*/
+/*}*/
 
 .details-restaurant-container {
   display: flex;
@@ -103,12 +119,6 @@
 }
 
 
-.swiper {
-  width: 876px;
-  height: 270px;
-}
-
-
 @media screen and (min-width: 414px) {
   .container {
     max-width: 414px;
@@ -116,14 +126,21 @@
   .details-restaurant-slider > img:nth-last-child(1) {
     display: none;
   }
+  /*.details-restaurant-slider > img:nth-last-child(2) {*/
+  /*  overflow: hidden;*/
+  /*}*/
+
   .details-restaurant-slider > img:nth-last-child(2) {
-    overflow: hidden;
+    display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 960px;
+  }
+  section.details-restaurant {
+    padding: 40px 0 48px 0;
   }
   .details-restaurant-slider > img:nth-last-child(1) {
     display: block;
@@ -192,6 +209,15 @@
   .details-restaurant-box {
     margin: 0 ;
   }
+  /*.details-restaurant-img {*/
+  /*  width: 162px;*/
+  /*}*/
+  .details-restaurant-slider > img:nth-last-child(2) {
+    display: block;
+  }
+  .details-restaurant-img {
+    width: 162px;
+  }
   .details-restaurant-description {
     width: 610px;
     font-size: 16px;
@@ -223,7 +249,10 @@
     gap: 86px;
   }
 
-  .details-restaurant-slider > img:nth-last-child(1) {
+  /*.details-restaurant-slider > img:nth-last-child(1) {*/
+  /*  width: 270px;*/
+  /*}*/
+  .details-restaurant-img {
     width: 270px;
   }
 
@@ -254,7 +283,7 @@
 
 @media screen and (max-width: 414px) {
   section.details-restaurant {
-    padding: 24px 0 40px 0;
+    padding: 24px 0 96px 0;
   }
   p.details-restaurant-description {
     width: 100%;
@@ -262,8 +291,12 @@
   .details-restaurant-slider > img:nth-last-child(1) {
     display: none;
   }
+  /*.details-restaurant-slider > img:nth-last-child(2) {*/
+  /*  overflow: hidden;*/
+  /*}*/
+
   .details-restaurant-slider > img:nth-last-child(2) {
-    overflow: hidden;
+    display: none;
   }
   .container {
     max-width: 100%;
@@ -280,3 +313,6 @@
     position: relative;
   }
 }
+
+
+
