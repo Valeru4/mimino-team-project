@@ -1,3 +1,7 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
 .container {
     min-width: 414px;
     padding-left: 15px;
@@ -33,7 +37,7 @@ ul a {
 .navigation {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(142, 146, 142);
+    background-color: transparent;
 }
 
 .navigation-list_span {
