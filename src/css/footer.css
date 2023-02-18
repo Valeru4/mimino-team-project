@@ -88,6 +88,7 @@ footer {
 
     .footer__social-icons {
         display: flex;
+        flex-direction: row-reverse;
         justify-content: space-between;
     }
 }
@@ -188,9 +189,9 @@ footer {
 
 
 
-.footer__social-icons li:not(:last-child) {
+/* .footer__social-icons li:not(:last-child) {
     margin-right: 20px;
-}
+} */
 
 @media screen and (min-width: 1024px) {
     .social-link {
