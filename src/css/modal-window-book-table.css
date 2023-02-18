@@ -125,7 +125,7 @@ line-height: 1.25;
     .form-field-input{
         height: 54px;
         width: 100%;
-        padding-left: 12px;
+        padding: 0 12px;
         border: 1px solid var(--description-section-accent-color);
         border-radius: 2px;
         outline: none;
