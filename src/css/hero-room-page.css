@@ -17,11 +17,10 @@
 }
 
 .hero {
-    background-image: url(../img/hero-room-page/room-mobile-1x.jpg);
-    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
-    background-position: center;
+    background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-mobile-1x.jpg);
+    background-position: top, center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 143px, cover;
     margin-left: auto;
     margin-right: auto;
 
@@ -34,11 +33,15 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-restaurant-page/rest-mobile-2x.jpg);
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-mobile-2x.jpg);
     }
 }
 
-/* .hero-adress-box-mobile {
+.hero > .container {
+    position: relative;
+}
+
+.hero-adress-box-mobile {
     width: 210px;
     height: 47px;
 
@@ -51,7 +54,7 @@
     align-items: center;
     margin-left: auto;
 
-    margin-bottom: 70px;
+    margin-bottom: 239px;
 }
 
 .hero-adress-box {
@@ -74,62 +77,77 @@
     text-align: left;
 }
 
+.hero-arrow-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 93px;
+}
+
+.hero-arrow-wrap{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+    color: var(--accent-yellow-color);
+}
+
+.hero-arrow-icon {
+    fill: currentColor;
+}
+
+
 .hero-title {
     color: var(--base-white-color);
-    font-family: 'FilmP3Bold';
-    font-style: normal;
+
+    font-family: 'Times New Roman';
     font-weight: 700;
-    font-size: 96px;
-    line-height: calc(103 / 96);
-    letter-spacing: 0.3em;
-    text-align: center;
-    margin-right: 55px;
-    margin-left: 40px;
-    text-transform: uppercase;
+    font-size: 28px;
+    line-height: calc(32 / 28);
+    letter-spacing: 0.05em;
 
-    margin-bottom: 20px;
-}
+    text-align: left;
 
-.hero-title>span {
-    letter-spacing: 0;
-}
-
-.hero-h2-title {
-    color: var(--base-white-color);
-
-    font-family: 'Montserrat';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: calc(20 / 16);
-    letter-spacing: 0.02em;
-
-    margin-bottom: 44px;
+    margin-bottom: 14px;
 }
 
 .hero-text {
     color: var(--base-white-color);
 
-    font-family: 'Times New Roman';
-    font-style: normal;
+    font-family: 'Montserrat';
     font-weight: 700;
-    font-size: 32px;
-    line-height: calc(37 / 32);
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
 
-    margin-bottom: 113px;
+    text-align: left;
+    width: 325px;
+
+    margin-bottom: 17px;
 }
 
-.hero-btn-list {
+.hero-social-list {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
-    align-items: center;
-
-    margin-bottom: 58px;
+    gap: 11px;
+    margin-right: auto;
 }
 
+.hero-social-list > li {
+    margin-right: auto;
+}
+
+.hero-social-icon {
+    fill: var(--accent-yellow-color);
+}
+
+
 .hero-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+
     padding: 12px 24px;
     color: var(--accent-yellow-color);
 
@@ -156,30 +174,24 @@
     border: 2px solid var(--accent-yellow-color);
 }
 
-.hero-social-list {
-    display: flex;
-    gap: 23px;
-    justify-content: start;
-    margin-right: auto;
-}
 
-.hero-social-icon {
-    fill: var(--accent-yellow-color);
-}
 
 @media screen and (min-width: 1024px) {
 
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-restaurant-page/rest-tablet-1x.jpg);
-        padding-top: 188px;
-        padding-bottom: 16px;
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-tablet-1x.jpg);
+        background-position: top, center;
+        background-size: 100% 143px, cover;
+
+        padding-top: 340px;
+        padding-bottom: 22px;
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-restaurant-page/rest-tablet-2x.jpg);
+            background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-tablet-2x.jpg);
         }
     }
 
@@ -187,33 +199,30 @@
         display: none;
     }
 
+    .hero-arrow-list {
+        margin-bottom: 88px;
+    }
+
     .hero-title {
-        font-size: 128px;
-        line-height: calc(138 / 128);
-
-        margin-bottom: 16px;
-    }
-
-    .hero-h2-title {
-        font-size: 20px;
-        line-height: calc(24 / 20);
-
-        margin-bottom: 56px;
-    }
-
-    .hero-text {
         font-size: 36px;
         line-height: calc(41 / 36);
 
-        margin-bottom: 137px;
+        margin-bottom: 24px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        line-height: calc(20 / 16);
+        width: 400px;
+
+        margin-bottom: 32px;
     }
 
     .hero-wrap {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-
-        margin-bottom: 25px;
+        justify-content: flex-start;
+        gap: 49px;
+        align-items: center;
     }
 
     .hero-adress-box {
@@ -245,67 +254,53 @@
         height: 24px;
     }
 
-    .hero-btn-list {
+    .hero-social-list {
         display: flex;
-        justify-content: end;
-        align-items: center;
         flex-direction: row;
-        gap: 40px;
-
-        margin-bottom: 0;
+        gap: 23px;
     }
 
+    .hero-btn {
+        bottom: 62px;
+        left: 723px;
+
+        padding: 14px 35px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
 
-    .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-restaurant-page/rest-desktop-1x.jpg);
-        padding-top: 164px;
-        padding-bottom: 64px;
+     .hero {
+        background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-desktop-1x.jpg);
+        background-position: top, center;
+        background-size: 100% 143px, cover;
+
+        padding-top: 412px;
+        padding-bottom: 48px;
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-restaurant-page/rest-desktop-2x.jpg);
+            background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%), url(../img/hero-room-page/room-desktop-2x.jpg);
         }
     }
 
-    .hero-title {
-        margin-bottom: 32px;
-    }
-
-    .hero-h2-title {
-        margin-bottom: 64px;
+    .hero-arrow-list {
+        margin-bottom: 72px;
     }
 
     .hero-text {
-        margin-bottom: 144px;
-    }
-
-    .hero-btn-list {
-        gap: 60px;
-
         margin-bottom: 0;
-    }
-
-    .hero-social-list {
-        display: none;
     }
 
     .hero-wrap {
-        margin-bottom: 0;
-    }
-
-    .hero-adress-box {
-        top: 600px;
-        right: inherit;
-        left: 85px;
+        display: none;
     }
 
     .hero-btn {
-        padding: 14px 35px;
+        bottom: 28px;
+        left: 903px;
     }
-} */
+} 
