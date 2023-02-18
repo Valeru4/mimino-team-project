@@ -90,6 +90,7 @@ ul a {
 .navigation-list_item {
     display: flex;
     justify-content: center;
+    margin-right: 56px;
 }
 
 .navigation-list_item:first-child {
