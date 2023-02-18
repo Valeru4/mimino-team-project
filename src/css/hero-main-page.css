@@ -121,14 +121,13 @@
     display: flex;
     flex-direction: column;
     row-gap: 24px;
+    align-items: center;
 
     margin-bottom: 58px;
 }
 
 .hero-btn {
     padding: 14px 24px;
-    min-width: 236px;
-    height: 48px;
 
     color: var(--accent-yellow-color);
 
@@ -268,7 +267,7 @@
 @media screen and (min-width: 1280px) {
 
     .hero {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(.nn./img/hero-main-page/homepage-desktop-1x.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/hero-main-page/homepage-desktop-1x.jpg);
         padding-top: 164px;
         padding-bottom: 64px;
     }
