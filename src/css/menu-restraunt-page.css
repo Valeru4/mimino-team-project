@@ -1,0 +1,215 @@
+td,tr,th{padding: 0;}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: var(--section--first-background-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: auto;
+}
+
+.menu-title {
+    text-align-last: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(37/32);
+    margin-bottom: 32px;
+    font-family: 'Times New Roman';
+}
+
+.table-title{
+    padding-top: 16px;
+    
+}
+
+.menu-table {
+    margin-right: 0;
+    width: 100%;
+}
+
+.table-first-title {
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23/20);
+    padding-bottom: 16px;
+}
+
+.eat-type {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(17/14);
+    padding-bottom: 10px;
+}
+
+.eat-mass {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(17/14);
+    text-align: right;
+}
+
+.eat-price {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(17/14);
+    text-align: right;
+}
+
+.ingradients{
+    width: auto;
+    font-family: 'Montserrat';
+    font-weight: 400;
+font-size: 10px;
+line-height: calc(12/10);
+padding-bottom: 8px;
+}
+
+.menu-btn{
+    display: block;
+    background-color:var(--base-black-color) ;
+border: 2px solid var(--section--first-background-color);
+border-radius: 25px;
+width: 236px;
+height: 48px;
+margin: 0 auto;
+margin-top: 32px;
+}
+
+.btn-text{
+    color: var(--accent-yellow-color);
+    font-family: 'Montserrat';
+    font-weight: 700;
+font-size: 16px;
+line-height: calc(20/16);
+}
+
+.menu .eat-last-name{
+    padding-bottom: 0;
+}
+
+/* ---------------------------------------- */
+
+@media screen and (min-width:414px) {
+
+    .container{
+        width: 414px;
+    }
+
+    .ingradients{
+        width: 215px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .container{
+        width: 960px;
+    }
+
+    .menu{
+        background-color: var(--section-second-background-color);
+        padding-top: 58px;
+        padding-bottom: 58px;
+        min-width: 950px;
+    }
+
+    .menu-table{
+        width: 421px;
+    }
+
+    .main-cont{
+        display: flex;
+        gap: 88px;
+    }
+
+    .two-cont{
+        width: auto;
+    }
+
+    .menu-title{
+        margin-bottom: 40px;
+    }
+
+    .table-title{
+        padding-top: 20px;
+    }
+
+    .table-first-title{
+        padding-bottom: 20px;
+    }
+
+    .eat-name{
+        padding-bottom: 11px;
+    }
+
+    .tablet-title{
+        padding-top: 0;
+    }
+
+    .menu-btn{
+        margin-top: 78px;
+        margin-right:0 ;
+    }
+
+    .eat-mass-two{
+        padding-bottom: 11px;
+    }
+    
+    .last-name{
+        padding-bottom: 11px;
+    }
+
+    .last-title{
+        padding-top: 9px;
+    }
+
+    .eat{
+        padding-bottom: 4px;
+    }
+}
+
+
+
+@media screen and (min-width:1280px) {
+    .container{
+        width: 1110px;
+    }
+
+    .main-cont{
+        gap: 140px;
+    }
+
+    .menu-table{
+        width: 470px;
+    }
+
+    .table-first-title{
+        font-weight: 700;
+font-size: 24px;
+line-height: calc(28/24);
+    }
+    
+    .eat-type{
+        font-size: 16px;
+line-height: calc(20/16);
+width: 285px;
+    }
+
+    .eat-price{
+        font-size: 16px;
+line-height: calc(20/16);
+    }
+
+}
