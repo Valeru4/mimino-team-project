@@ -182,6 +182,10 @@ body {
         margin-bottom: 28px;
     }
 
+    .modal-input:nth-last-child(-n + 2) {
+        margin-bottom: 40px;
+    }
+
 
     .book {
         display: inline-block;
