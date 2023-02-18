@@ -69,6 +69,7 @@
     color:var(--accent-yellow-color);
     width: 239px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) , border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
    
 }
 .details-button .button:hover{
@@ -146,6 +147,7 @@
         min-width: 549px;
         margin:0 auto;
         margin-bottom:40px;
+        margin-left: 145px;
     }
     .scroll-arrows{
         margin-bottom: unset;
@@ -153,7 +155,7 @@
     .details-image-list{
         margin-bottom: 24px;
         gap:34px;
-        flex-direction: row;
+        
         margin-left: auto;
     }
     .mobile-image-arrow-wrap{
@@ -196,7 +198,7 @@
 }
 
 .text-wrap{
-  
+  margin-left: auto;
    max-width: 595px;
    
 }
@@ -207,5 +209,6 @@
 
 .details-image-list{
     gap:86px;
+    flex-direction: row;
 }
 }
