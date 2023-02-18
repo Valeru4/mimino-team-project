@@ -1,0 +1,117 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 712px;
+    height: 638px;
+    background-color: #F0ECD6;
+    border: 1px solid #C79002;
+    transform: translate(-50%, -50%);
+}
+
+.modal-close {
+    width: 18px;
+    height: 18px;
+}
+
+.modal-close_btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.modal-close_btn:hover,
+.modal-close_btn:focus {
+    fill: #000000;
+}
+
+.contact-form_inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.form-title {
+    text-align: center;
+    margin-bottom: 36px;
+    color: #000000;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+}
+
+.modal-input {
+    margin-right: 16px;
+}
+
+.modal-input:nth-child(2),
+.modal-input:nth-child(5) {
+    margin-right: 0;
+}
+
+.modal-input:nth-child(3) {
+    margin-right: 0;
+    margin-left: 320px;
+    width: 304px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    width: 288px;
+    border: 1px solid #C79002;
+    border-radius: 2px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: #808080;
+    background-color: #fffdee;
+    letter-spacing: 0.05em;
+}
+
+.form-label {
+    margin-top: 8px;
+    color: #C79002;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.modal-input {
+    margin-bottom: 28px;
+}
+
+.form-label {
+
+}
+
+.book {
+    display: inline-block;
+    width: 592px;
+    height: 64px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    background-color: black;
+}

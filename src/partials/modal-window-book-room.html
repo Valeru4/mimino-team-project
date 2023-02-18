@@ -1,0 +1,78 @@
+<section>
+    <div class="container">
+
+
+        <div class="modal">
+            <button type="button" class="modal-close_btn">
+                <svg class="modal-close">
+                    <use href="./images/symbol-defs.svg#icon-Vector-7"></use>
+                    <use href="./images/symbol-defs.svg#icon-Vector-6"></use>
+                </svg>
+            </button>
+
+            <form class="contact-form">
+                <p class="form-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                    <div class="contact-form_inputs">
+                        <div class="modal-input">
+                            <input 
+                                class="form-input"
+                                type="text" 
+                                name="name" 
+                                id="user-name" 
+                                placeholder="Ваше ім’я"
+                            >
+                            <label for="user-name" class="form-label">
+                                На кого забронювати номер?
+                                </label>
+                        </div>
+
+                    <div class="modal-input">
+                            <input 
+                                class="form-input" 
+                                type="tel" 
+                                name="tel" 
+                                id="user-tel" 
+                                placeholder="+38(___) ___-__-__"
+                            >
+                            <label for="tel" class="form-label">Номер телефону</label>
+                    </div>
+
+                    <div class="modal-input">
+                            <select class="form-input" id="Категория номера" name="Категория номера">
+                                <option value="one"></option>
+                                <option value="two"></option>
+                                <option value="three"></option>
+                            </select>
+                            <label for="user-room" class="form-label">Категорія номеру</label>
+                    </div>
+                
+                    <div class="modal-input">
+                            <input 
+                                class="form-input" 
+                                placeholder="Сьогодні" 
+                                type="date" 
+                                name="date-from" 
+                                required 
+                                id="date-from"
+                            >
+                            <label for="date-from" class="form-label">Дата заїзду</label>
+                    </div>
+
+                    <div class="modal-input">
+                            <input 
+                                class="form-input" 
+                                placeholder="Сьогодні" 
+                                type="date" 
+                                name="date-to" 
+                                required 
+                                id="date-to">
+                            <label for="date-to" class="form-label">Дата виїзду</label>
+                    </div>
+                    </div>
+
+                <button class="book" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
+            
+            </form>
+        </div>
+    </div>
+</section>
