@@ -2,6 +2,13 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+header {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .container {
     min-width: 414px;
     padding-left: 15px;
@@ -136,6 +143,10 @@ ul a {
 @media screen and (min-width: 1024px){
     .container {
         width: 1280px;
+    }   
+
+    header {
+        padding-top: 30px;
     }   
 
     .navigation-list {
