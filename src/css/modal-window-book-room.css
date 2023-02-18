@@ -17,14 +17,18 @@
 
 }
 
-@media screen and (min-width: 414px){
+body {
+    font-family: 'Montserrat';
+}
 
     .modal {
         position: absolute;
         top: 50%;
         left: 50%;
         width: 414px;
-        height: 780px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
         background-color: #F0ECD6;
         border: 1px solid #C79002;
         transform: translate(-50%, -50%);
@@ -54,10 +58,69 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .form-title {
+        text-align: center;
+        margin-bottom: 36px;
+        color: #000000;
+        font-family: "Times New Roman";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.05em;
+    }
+
+    .form-input {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 12px;
+        margin-bottom: 8px;
+        width: 398px;
+        border: 1px solid #C79002;
+        border-radius: 2px;
+        font-family: 'Times New Roman';
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.16;
+        color: #808080;
+        background-color: #fffdee;
+        letter-spacing: 0.05em;
+    }
+
+    .form-label {
+        color: #C79002;
+        margin-left: 12px;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        line-height: 1.16;
+        letter-spacing: 0.02em;
+    }
+
+    .modal-input {
+        margin-bottom: 20px;
+    }
+
+    .modal-input:last-child {
+        margin-bottom: 40px;
+    }
+
+    .book {
+        display: inline-block;
+        width: 384px;
+        height: 64px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: black;
+        border: 1px solid #F3C653;
     }
 
 
-}
 
 
 
@@ -69,29 +132,21 @@
     height: 638px;
 }
 
-
 .modal-close_btn:hover,
 .modal-close_btn:focus {
     fill: #000000;
 }
 
 .contact-form_inputs {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-
 .form-title {
-    text-align: center;
     margin-bottom: 36px;
-    color: #000000;
-    font-family: "Times New Roman";
     font-size: 40px;
-    font-weight: 700;
     line-height: 1.15;
-    letter-spacing: 0.05em;
 }
 
 .modal-input {
@@ -110,43 +165,20 @@
 }
 
 .form-input {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 12px;
-    margin-bottom: 8px;
     width: 288px;
-    border: 1px solid #C79002;
-    border-radius: 2px;
-    font-family: 'Times New Roman';
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.16;
-    color: #808080;
-    background-color: #fffdee;
-    letter-spacing: 0.05em;
 }
 
 .form-label {
-    margin-top: 8px;
-    color: #C79002;
-    margin-left: 12px;
     font-size: 16px;
-    font-family: 'Montserrat';
-    font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
 .modal-input {
     margin-bottom: 28px;
 }
 
-.form-label {
-
-}
 
 .book {
     display: inline-block;
