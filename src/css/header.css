@@ -16,6 +16,12 @@ ul a {
     text-decoration: none;
 }
 
+@font-face {
+    font-family: FilmP3Bold;
+    src: url('../fonts/FilmP3Bold.ttf');
+    src: url('../fonts/FilmP3Bold.woff');
+}
+
 /*---Mobile---*/
 
 @media screen and (min-width: 414px) {
@@ -27,7 +33,7 @@ ul a {
 .navigation {
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: rgb(142, 146, 142);
 }
 
 .navigation-list_span {
@@ -43,7 +49,7 @@ ul a {
     padding-top: 16px;
     margin-right: auto;
     color: white;
-    font-style: 'Film P3Bold';
+    font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
     font-size: 36px;
     line-height: 1.08;
@@ -78,10 +84,9 @@ ul a {
 
 .navigation-list_svg {
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 20px;
     margin-bottom: 14px;
-    margin-right: 7px;
 }
 
 
@@ -126,9 +131,7 @@ ul a {
 
 @media screen and (min-width: 1024px){
     .container {
-        width: 1024px;
-        padding-left: 47px;
-        padding-right: 47px;
+        width: 1280px;
     }   
 
     .navigation-list {
@@ -180,7 +183,7 @@ ul a {
         padding-right: 8px;
         margin-right: 0;
         margin-bottom: 0;
-        width: 134px;
+        width: 144px;
         font-size: 14px;
         line-height: 1.2;
         font-weight: 400;
@@ -189,11 +192,11 @@ ul a {
     }
 
     .navigation-list_svg {
-        width: 24px;
-        height: 40px;
-        margin-right: auto;
-        margin-bottom: -10px;
-        margin-top: -6px;
+        width: 12px;
+        height: 20px;
+        margin-right: 10px;
+        margin-bottom: 0;
+        fill: rgba(243, 198, 83, .7);
     }
 
     .address {
@@ -204,9 +207,8 @@ ul a {
 
 @media screen and (min-width: 1280px) {
     .container {
-        width: 1280px;
-        padding-left: 85px;
-        padding-right: 85px;
+        width: 1140px;
+        
     }
 
     .navigation {
