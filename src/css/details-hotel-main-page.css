@@ -1,20 +1,17 @@
-body{
-    margin: 0;
-}
-.details-image-list , .details-buttons , .scroll-arrows{
-    list-style-type: none;
-}
+
+
 .details-of-hotel{
-    background-image:linear-gradient(
+    background-color:black;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(
         rgba(0 , 0 , 0 , 0.7),
         rgba(0, 0 , 0 , 0.7) ),
-      url(../img/details-hotel-main-page-images/images/pexels-kheng-tang-3873951\ 1\ \(1\).jpg);
-   
+        url(../img/details-hotel-main-page-images/pexels-kheng-tang.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 24px;
-    padding-bottom: 40px;
+
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -24,7 +21,7 @@ body{
     linear-gradient(
         rgba(0 , 0 , 0 , 0.7),
         rgba(0, 0 , 0 , 0.7) ),
-      url(../img/details-hotel-main-page-images/images/pexels-kheng-tang-3873951\ 2\ \(1\).jpg);
+      url(../img/details-hotel-main-page-images/pexels-kheng-tang2.jpg);
   }
 }
 .hotel-details-title{
@@ -180,15 +177,12 @@ body{
     
 .hotel-details-title{
     font-weight: 500;
-    font-size: 64px;
+   
     line-height: 0.9;
-    margin-bottom: 16px;
+ 
     margin-right: -20px;
 }
-.hotel-details-subtitle{
-   font-size: 24px;
-   margin-bottom: 8px;
-}
+
 .hotel-details-text{
     text-align: start;
     
@@ -202,19 +196,15 @@ body{
 }
 
 .text-wrap{
-   margin:0 auto;
+  
    max-width: 595px;
-   margin-bottom: 40px;
+   
 }
 .details-buttons{
     display: flex;
-    flex-direction: column;
-   justify-content: end;
-   padding-bottom: 60px;
+   
 }
-.mobile-image-arrow-wrap{
-    margin-right: 0;
-}
+
 .details-image-list{
     gap:86px;
 }
