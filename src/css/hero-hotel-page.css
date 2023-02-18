@@ -90,6 +90,10 @@
     text-transform: uppercase;
 }
 
+.hero-title > span {
+    letter-spacing: 0;
+}
+
 .hero-h2-title {
     color: var(--base-white-color);
 
