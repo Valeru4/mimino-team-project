@@ -27,12 +27,6 @@ ul a {
     text-decoration: none;
 }
 
-@font-face {
-    font-family: FilmP3Bold;
-    src: url('../fonts/FilmP3Bold.ttf');
-    src: url('../fonts/FilmP3Bold.woff');
-}
-
 /*---Mobile---*/
 
 @media screen and (min-width: 414px) {
@@ -60,7 +54,7 @@ ul a {
     padding-top: 16px;
     margin-right: auto;
     color: white;
-    font-family: 'FilmP3Bold', sans-serif;
+    font-family: 'Mimiho';
     font-style: normal;
     font-size: 36px;
     line-height: 1.08;
