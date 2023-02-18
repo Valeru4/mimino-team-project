@@ -17,36 +17,58 @@
 
 }
 
+@media screen and (min-width: 414px){
+
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 414px;
+        height: 780px;
+        background-color: #F0ECD6;
+        border: 1px solid #C79002;
+        transform: translate(-50%, -50%);
+    }
+
+    .modal-close {
+        width: 18px;
+        height: 18px;
+    }
+
+    .modal-close_btn {
+        position: absolute;
+        right: 20px;
+        top: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border: none;
+        background-color: transparent;
+        fill: var(--base-black-color);
+        cursor: pointer;
+    }
+
+    .contact-form_inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1280px) {
+
 
 .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     width: 712px;
     height: 638px;
-    background-color: #F0ECD6;
-    border: 1px solid #C79002;
-    transform: translate(-50%, -50%);
 }
 
-.modal-close {
-    width: 18px;
-    height: 18px;
-}
-
-.modal-close_btn {
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
 
 .modal-close_btn:hover,
 .modal-close_btn:focus {
@@ -134,4 +156,5 @@
     margin-right: 60px;
     color: white;
     background-color: black;
+}
 }
