@@ -84,6 +84,7 @@ ul a {
 
 .navigation-list_title {
     color: #F3C653;
+    font-family: 'Montserrat';
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
@@ -156,6 +157,7 @@ ul a {
 
     .navigation-list_span {
         display: block;
+        font-family: 'Montserrat';
         font-size: 14px;
         font-weight: 400;
         line-height: 1.2;
