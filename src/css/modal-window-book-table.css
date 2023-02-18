@@ -21,93 +21,158 @@
    
    .modal-container{
     position: relative;
-max-width: 712px;
-   padding: 60px;
-   background:var(--section--first-background-color);
-border-radius: 2px;      
+max-width: 384px;
+   padding: 60px 15px;
+   background: var(--section--first-background-color);
+border-radius: 2px;  
+
+@media (min-width: 1024px)
+{
+    padding: 60px;
+    max-width: 712px;
+}
    }
+.cross {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    fill: #000000;
+   
+
+}
+.cross-button{
+    display: block;
+     width: 100%;
+     
+    }
+
+
+   
    .modal-title{
     font-family: 'Times New Roman';
 font-weight: 700;
-font-size: 40px;
-line-height: 1.15;
+font-size: 24px;
+line-height: 1.167;
 letter-spacing: 0.05em;
     text-align: center;
     margin-bottom: 40px;
+
+    @media (min-width: 1024px)
+    {
+        font-size: 40px;
+line-height: 1.15;
+    }
+
+
 }
     .modal-box {
+        display: block;
+        margin-bottom: 40px;
+
+        @media (min-width: 1024px)
+    {
         display: flex;
         gap: 28px 16px;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+    }
+
     } 
 
 .form-field-label{
     font-family: 'Montserrat';
 font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+font-size: 14px;
+line-height: 1.21;
 letter-spacing: 0.02em;
 color:var(--description-section-accent-color);
-margin-bottom: 28px;
 
+
+@media (min-width: 1024px)
+    {
+        font-size: 16px;
+line-height: 1.25;
+        margin: 0;
+    }
+
+
+}
+
+.modal-list{
+    margin-bottom: 20px;
+
+    @media (min-width: 1024px)
+    {
+        margin: 0;
+    }
 }
 
 .form-field{
     position: relative;
     margin-bottom: 8px;
-    width: 288px;}
+    width: 100%;
+    @media (min-width: 1024px)
+    {
+        width: 288px;
+    }
+    
+
+
+}
 
     .form-field-input{
-        height: 64px;
+        height: 54px;
         width: 100%;
-        padding: 0 12px;
+        padding-left: 12px;
         border: 1px solid var(--description-section-accent-color);
         border-radius: 2px;
         outline: none;
         font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 23px;
         letter-spacing: 0.05em;
-        color:var(--color-moda);
+        color: var(--color-modal);
+        @media (min-width: 1024px)
+        {
+            height: 64px;
+            font-size: 24px;
+        line-height: 28px;
+        
+        }
+        
+
+
     }
       
     .button-modal{
-        background:var(--base-black-color);     
+        background: var(--base-black-color);     
         border: 1px solid var(--description-section-accent-color);
         border-radius: 2px;
         cursor: pointer;
         font-family: 'Montserrat';
         font-weight: 500;
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 20px;
+        line-height: 1.2;
         color: var(--base-white-color);
         text-align: center;
-        padding: 18px 117px;
+        padding: 20px 43px;
         width: 100%;
-            
-        
-    }
 
-    .button-modal:hover,
-        .button-modal:focus{
-        color: var(--base-white-color);
-        background:var(--accent-yellow-color);
-    }
-    .cross{
-        position: absolute;
-        right: 16px;
-        top: 16px;
-        background: transparent;
-        cursor: pointer;
-        border: none;
-               
-
-    }
-    .cross-button{
-        display: block;
-         width: 100%;
-         
+        @media (min-width: 1024px)
+        {
+            font-size: 24px;
+            line-height: 1.21;
+            padding: 18px 117px;
         }
+
+    }
+    
+    .button-modal:hover,
+    .button-modal:focus{
+        color:var(--base-white-color);
+        background: var(--accent-yellow-color);
+    }
