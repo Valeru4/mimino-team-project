@@ -1,0 +1,113 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+        
+}
+
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+.modal{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;}
+   
+   .modal-container{
+    position: relative;
+max-width: 712px;
+   padding: 60px;
+   background:var(--section--first-background-color);
+border-radius: 2px;      
+   }
+   .modal-title{
+    font-family: 'Times New Roman';
+font-weight: 700;
+font-size: 40px;
+line-height: 1.15;
+letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+    .modal-box {
+        display: flex;
+        gap: 28px 16px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    } 
+
+.form-field-label{
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color:var(--description-section-accent-color);
+margin-bottom: 28px;
+
+}
+
+.form-field{
+    position: relative;
+    margin-bottom: 8px;
+    width: 288px;}
+
+    .form-field-input{
+        height: 64px;
+        width: 100%;
+        padding: 0 12px;
+        border: 1px solid var(--description-section-accent-color);
+        border-radius: 2px;
+        outline: none;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color:var(--color-moda);
+    }
+      
+    .button-modal{
+        background:var(--base-black-color);     
+        border: 1px solid var(--description-section-accent-color);
+        border-radius: 2px;
+        cursor: pointer;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: var(--base-white-color);
+        text-align: center;
+        padding: 18px 117px;
+        width: 100%;
+            
+        
+    }
+
+    .button-modal:hover,
+        .button-modal:focus{
+        color: var(--base-white-color);
+        background:var(--accent-yellow-color);
+    }
+    .cross{
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+               
+
+    }
+    .cross-button{
+        display: block;
+         width: 100%;
+         
+        }
