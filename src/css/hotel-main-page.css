@@ -4,127 +4,7 @@
     padding-bottom: 20px;
     padding-top: 18px;
 }
-@media screen and (max-width:1024px) 
-{
-    .section-aboutourhotel{
-        padding-bottom: 32px;
-        padding-top: 120px;
-     }
-     .aboutourhotel
-     {
-     
-     grid-template-areas:
-          'aboutourhotel-img text-aboutourhotel';
-     }
-     .aboutourhotel-img
-{
-   margin-right: 0;
-    margin-top: -30%;
-    margin-left: 65px;
-}
-.text-aboutourhotel
-    {
-       
-        
-        padding-bottom: 142px;
-        padding-left: 46px;
-    }
-    .aboutourhotel-title
-{
-   
-margin-bottom: 4px;
-font-size: 32px;
-line-height: 1.156;
 
-}
-.aboutourhotel-subtitle
-{
-    font-size: 64px;
-line-height: 1.078;
-margin-bottom: 24px;
-}
-.aboutourhotel-excerpt
-{
-    font-size: 16px;
-line-height: 1.25;
-
-}
-.aboutourhotel-text
-{
-    margin: 0;
-padding-left: 220px;
-padding-top: 172px;
-margin-right: -45px;
-    
-    font-size: 16px;
-line-height: 1.25;
- 
-}
-
-.aboutourhotel-images
-{
-    margin-left: 115px;
-
-}
-.aboutourhotel-scrol
-{
-    margin-top: -30px;
-}
-.aboutourhotel-pic
-{
-    gap: 40px;
-    margin-bottom: 32px;
-}
-
-.scrol-img{
-    max-width: 194px;
-}
-.scrol-images{
-    max-width: 194px;
-}
-   
-
-    
-}
-@media screen and (max-width:1280px) 
-{
-    .section-aboutourhotel{
-        padding-bottom: 50px;
-     }
-     .aboutourhotel-img{
-        margin-left: 95px;
-    
-    }
-    .text-aboutourhotel{
-    
-        
-        padding-bottom: 208px;
-        padding-left: 67px;
-    }
-    .aboutourhotel-text{
-    
-        padding-left: 294px;
-        padding-top: 123px;
-        margin-right: -50px;
-     
-    }
-    .aboutourhotel-images{
-        margin-left: 95px;
-        margin-top: -46px;
-    }
-    .aboutourhotel-scrol{
-        margin-top: -179px;
-    }
-    .aboutourhotel-pic{
-        margin-bottom: 40px;
-    }
-    .scrol-img{
-        max-width: 254px;
-    }
-    .scrol-images{
-        max-width: 254px;
-    }
-}
 
 .aboutourhotel{
     display: grid;
@@ -263,3 +143,124 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 .aboutourhotel-vector{
     display: flex;
     }
+    @media screen and (max-width:1024px) 
+{
+    .section-aboutourhotel{
+        padding-bottom: 32px;
+        padding-top: 120px;
+     }
+     .aboutourhotel
+     {
+     
+     grid-template-areas:
+          'aboutourhotel-img text-aboutourhotel';
+     }
+     .aboutourhotel-img
+{
+   margin-right: 0;
+    margin-top: -30%;
+    margin-left: 65px;
+}
+.text-aboutourhotel
+    {
+       
+        
+        padding-bottom: 142px;
+        padding-left: 46px;
+    }
+    .aboutourhotel-title
+{
+   
+margin-bottom: 4px;
+font-size: 32px;
+line-height: 1.156;
+
+}
+.aboutourhotel-subtitle
+{
+    font-size: 64px;
+line-height: 1.078;
+margin-bottom: 24px;
+}
+.aboutourhotel-excerpt
+{
+    font-size: 16px;
+line-height: 1.25;
+
+}
+.aboutourhotel-text
+{
+    margin: 0;
+padding-left: 220px;
+padding-top: 172px;
+margin-right: -45px;
+    
+    font-size: 16px;
+line-height: 1.25;
+ 
+}
+
+.aboutourhotel-images
+{
+    margin-left: 115px;
+
+}
+.aboutourhotel-scrol
+{
+    margin-top: -30px;
+}
+.aboutourhotel-pic
+{
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+.scrol-img{
+    max-width: 194px;
+}
+.scrol-images{
+    max-width: 194px;
+}
+   
+
+    
+}
+@media screen and (max-width:1280px) 
+{
+    .section-aboutourhotel{
+        padding-bottom: 50px;
+     }
+     .aboutourhotel-img{
+        margin-left: 95px;
+    
+    }
+    .text-aboutourhotel{
+    
+        
+        padding-bottom: 208px;
+        padding-left: 67px;
+    }
+    .aboutourhotel-text{
+    
+        padding-left: 294px;
+        padding-top: 123px;
+        margin-right: -50px;
+     
+    }
+    .aboutourhotel-images{
+        margin-left: 95px;
+        margin-top: -46px;
+    }
+    .aboutourhotel-scrol{
+        margin-top: -179px;
+    }
+    .aboutourhotel-pic{
+        margin-bottom: 40px;
+    }
+    .scrol-img{
+        max-width: 254px;
+    }
+    .scrol-images{
+        max-width: 254px;
+    }
+}
