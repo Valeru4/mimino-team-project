@@ -15,15 +15,11 @@
     .contact-info {
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
         padding: 0;
-        /* padding-top: 36px; */
         
     }
 
     .contact-logo{
-    /* width: 127px;
-    height: 43px; */
     margin-bottom: 12px;
     font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
@@ -77,7 +73,6 @@
     
     .hotel-cont{
     margin-right: 54px;
-    /* width: 100%; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -159,8 +154,6 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        /* width: 260px;
-        height: 76px; */
         margin-left: 124px;
         padding: 9px 8px 7px 10px;
         font-family: 'Montserrat', sans-serif;
@@ -175,13 +168,10 @@
      }
     .break-word{
         overflow-wrap: break-word;
-        /* padding-right: 33px; */
     }
 
      .map-container{
      width: 100%;
-     /* width: 384px;
-     height: 220px; */
      background: url(.png);
      border: 1px solid var(--subtitle-section-text-color);
      box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
