@@ -14,10 +14,8 @@ export default defineConfig({
         restraunt: resolve(__dirname, 'src/restraunt.html'),
       },
     },
-
-    
-
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
+
