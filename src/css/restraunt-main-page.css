@@ -76,6 +76,31 @@
   margin: 8px 0 16px 0;
 }
 
+.scroll-arrows-icon {
+  fill: var(--base-white-color);
+  transition: fill .25s cubic-bezier(.4,0,.2,1);
+  display: block;
+}
+
+.details-restaurant-arrow > button{
+  background-color: transparent;
+  border: none;
+}
+.arrow-icon-slider-left,
+.arrow-icon-slider-right{
+  fill: var(--base-white-color);
+  transition: fill var(--animation);
+}
+
+.arrow-icon-slider-left:hover,
+.arrow-icon-slider-right:hover{
+  fill: var(--accent-yellow-color);
+}
+.arrow-icon-slider-left:focus,
+.arrow-icon-slider-right:focus{
+  fill: var(--accent-yellow-color);
+}
+
 .details-restaurant-description {
   color: var(--description-section-text-color);
   font-weight: 600;
