@@ -1,8 +1,10 @@
 @import url('./reset.css');
 @import url('./base.css');
+@import url('./header.css');
 @import url('./hero-hotel-page.css');
 @import url('./room-luxe.css');
 @import url('./room-3-adult.css');
 @import url('./room-2-adult.css');
 @import url('./modal-window-book-room.css');
 @import url('./modal-window-room-price.css');
+@import url('./footer.css');
