@@ -23,6 +23,7 @@
   font-size: 40px;
   line-height: 1.08;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
 
   color: var(--logo-section-color);
 }
@@ -63,12 +64,6 @@
 .abrest-wrap-text-second {
   color: var(--description-section-accent-color);
 }
-/* Це медіа туту не потрібно, якщо виправити БЕЙС СіСС */
-/* @media screen and (min-width: 414px) {
-  .container {
-    max-width: unset;
-  }
-} */
 @media screen and (min-width: 1024px) {
   .abrest {
     padding-top: 0;
