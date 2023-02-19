@@ -38,7 +38,7 @@ grid-area: aboutourhotel-img;
 
 .aboutourhotel-title{
 
-font-family: 'Times New Roman';
+font-family: 'Times New Roman,sans-serif';
 font-weight: 400;
 font-size: 20px;
 line-height: 1.15;
@@ -124,7 +124,6 @@ border-radius: 2px;
 
 .scrol-images{
     display: flex;
-    background: var(--background-images);
 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
 
@@ -143,7 +142,7 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 .aboutourhotel-vector{
     display: flex;
     }
-    @media screen and (max-width:1024px) 
+    @media screen and (min-width: 1024px) 
 {
     .section-aboutourhotel{
         padding-bottom: 32px;
@@ -225,7 +224,7 @@ line-height: 1.25;
 
     
 }
-@media screen and (max-width:1280px) 
+@media screen and (min-width: 1280px)
 {
     .section-aboutourhotel{
         padding-bottom: 50px;
