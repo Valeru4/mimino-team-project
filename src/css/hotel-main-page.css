@@ -15,30 +15,6 @@
    }
 }
 
-.container{
-    max-width: 414px;
-    width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    @media (min-width: 1024px)
-{
-    max-width: 960px;
-   
-}
-
-@media (min-width: 1280px){
-
-    max-width: 1140px;
-   
-      
-   }
-}
-
-
-
 .aboutourhotel{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -96,7 +72,8 @@ grid-area: aboutourhotel-img;
 }
 
 .aboutourhotel-title{
-    font-family: 'Times New Roman';
+
+font-family: 'Times New Roman';
 font-weight: 400;
 font-size: 20px;
 line-height: 1.15;
@@ -116,7 +93,8 @@ line-height: 1.156;
 }
 
 .aboutourhotel-subtitle{
-    font-family: 'FilmP3Bold';
+    
+font-family: 'FilmP3Bold';
 font-weight: 700;
 font-size: 40px;
 line-height: 1.075;
