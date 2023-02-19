@@ -14,8 +14,6 @@ export default defineConfig({
         nested: resolve(__dirname, 'src/restraunt.html'),
       },
     },
-
-    
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],

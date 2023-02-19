@@ -1,0 +1,231 @@
+/* --------RESTAURANT PAGE - ABOUT OUR KITCHEN-------- */
+
+.about-kitchen {
+  padding-top: 16px;
+  padding-bottom: 20px;
+  background-color: var(--section--first-background-color);
+}
+
+.kitchen-title-wrap {
+  margin-bottom: 28px;
+}
+
+.kitchen-pre-title {
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  color: var(--subtitle-section-text-color);
+  margin-bottom: 12px;
+}
+
+.kitchen-title {
+  font-family: "FilmP3Bold", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: var(--logo-section-color);
+  margin-bottom: 12px;
+}
+
+.kitchen-after-title {
+  max-width: 258px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--description-section-color);
+}
+
+.kitchen-img-wrap-first,
+.kitchen-img-wrap-second {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.kitchen-img-wrap-first {
+  width: 244px;
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+
+.kitchen-img-text-wrap {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.kitchen-img-wrap-second {
+  width: 200px;
+}
+
+.kitchen-text {
+  max-width: 163px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--description-section-accent-color);
+}
+
+.kitchen-slider {
+  display: flex;
+  gap: 24px;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+
+.kitchen-slider-img-first,
+.kitchen-slider-img-second {
+  background: #dadada;
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.kitchen-slider-img-second {
+  margin-right: -15px;
+}
+
+.kitchen-slider-btn {
+  display: flex;
+  gap: 34px;
+  justify-content: end;
+}
+
+.slider-btn {
+  padding: 0;
+  border: transparent;
+  background-color: inherit;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-kitchen {
+    padding-top: 120px;
+    padding-bottom: 32px;
+  }
+
+  .container.kitchen {
+    position: relative;
+  }
+
+  .kitchen-title-wrap {
+    margin-bottom: 142px;
+  }
+
+  .kitchen-pre-title {
+    font-size: 32px;
+    line-height: 1.16;
+    margin-bottom: 4px;
+  }
+
+  .kitchen-title {
+    font-size: 64px;
+    margin-bottom: 24px;
+  }
+
+  .kitchen-after-title {
+    max-width: 439px;
+    font-size: 16px;
+  }
+
+  .kitchen-img-wrap-first,
+  .kitchen-img-wrap-second {
+    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+  }
+
+  .kitchen-img-wrap-first {
+    position: absolute;
+    width: 400px;
+    top: -152px;
+    right: 80px;
+    margin-bottom: 0;
+  }
+
+  .kitchen-img-text-wrap {
+    gap: 48px;
+    margin-bottom: 198px;
+  }
+
+  .kitchen-img-wrap-second {
+    width: 350px;
+  }
+
+  .kitchen-text {
+    max-width: 312px;
+    font-size: 16px;
+  }
+
+  .kitchen-slider {
+    position: absolute;
+    right: 28px;
+    bottom: 64px;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+
+  .kitchen-slider-img-first,
+  .kitchen-slider-img-second {
+    width: 194px;
+  }
+
+  .kitchen-slider-img-second {
+    margin-right: 0;
+  }
+
+  .kitchen-slider-btn {
+    margin-right: 13px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  
+  .kitchen-title-wrap {
+    margin-bottom: 162px;
+  }
+
+  .kitchen-after-title {
+    max-width: 518px;
+  }
+
+  .kitchen-img-wrap-first {
+    width: 460px;
+    top: -152px;
+    right: 110px;
+  }
+
+  .kitchen-img-text-wrap {
+    gap: 32px;
+    margin-bottom: 143px;
+  }
+
+  .kitchen-img-wrap-second {
+    width: 460px;
+  }
+
+  .kitchen-slider {
+    right: 15px;
+    bottom: 72px;
+  }
+
+  .kitchen-slider-img-first,
+  .kitchen-slider-img-second {
+    width: 254px;
+  }
+
+  .kitchen-slider-btn {
+    margin-right: 0;
+  }
+
+  .slider-btn {
+    transition: fill var(--animation);
+  }
+
+  .slider-btn:hover,
+  .slider-btn:focus {
+    fill: var(--accent-yellow-color);
+  }
+}
