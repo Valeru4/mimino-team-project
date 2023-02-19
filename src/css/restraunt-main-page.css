@@ -1,6 +1,5 @@
 .details-restaurant {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant.jpg);
   color: var(--base-white-color);
   padding: 48px 0 96px 0;
   position: relative;
@@ -12,7 +11,9 @@
 .details-restaurant-container {
   display: flex;
 }
-
+.details-restaurant-images{
+  border-radius: 2px;
+}
 .details-restaurant__btns {
   display: block;
   width: 236px;
@@ -35,6 +36,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
+  text-align: center;
   transition: background-color var(--animation);
 }
 
@@ -133,7 +135,10 @@
 
 
 @media (min-width: 414px),(max-width: 414px) {
-  .details-restaurant-slider > picture {
+  .details-restaurant-slider > picture:nth-last-child(1) {
+    display: none;
+  }
+  .details-restaurant-slider > picture:nth-last-child(2) {
     display: none;
   }
   .details-restaurant-box {
@@ -183,10 +188,13 @@
   .details-restaurant-box {
     margin: 0 ;
   }
-
-  .details-restaurant-slider > img:nth-last-child(2) {
+  .details-restaurant-slider > picture:nth-last-child(1) {
     display: block;
   }
+  .details-restaurant-slider > picture:nth-last-child(2) {
+    display: block;
+  }
+
   .details-restaurant-img {
     width: 162px;
   }
@@ -276,3 +284,45 @@
 
 
 
+@media screen and (min-width: 414px), (max-width: 414px) {
+  .details-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-mobile-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .details-restaurant {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-mobile-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .details-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-tablet-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .details-restaurant {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-tablet-2x.jpg);
+    }
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .details-restaurant {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-desktop-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .details-restaurant {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-desktop-2x.jpg);
+    }
+  }
+}
