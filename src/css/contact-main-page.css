@@ -187,7 +187,7 @@
     }
 
      .map-container{
-        width: 100%;
+     width: 100%;
      /* width: 384px;
      height: 220px; */
      background: url(.png);
@@ -206,9 +206,9 @@
 
     @media screen and (min-width: 414px) {
 
-        .container {
+        /* .container {
         max-width: 414px;
-        }
+        } */
 
         .contact-tel-hotel{
             flex-direction: row;
@@ -249,6 +249,7 @@
         padding-left: 47px;
         padding-right: 47px;
     } */
+
 
     .contact-info{
         flex-wrap: wrap;
@@ -353,6 +354,7 @@
         align-items: center;
         max-width: 1140px;
     } */
+
 
     /* .contact-info{
         padding-bottom: 73px;
