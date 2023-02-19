@@ -20,10 +20,9 @@
     }
     
     .contact-info {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         width: 100%;
-        display: flex;
         padding: 0;
         /* padding-top: 36px; */
         flex-wrap: wrap;
