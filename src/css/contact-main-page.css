@@ -66,7 +66,7 @@
     }
     .contact-item:last-child{
         margin-bottom: 32px;
-        gap: 8px;
+        gap: 10px;
     }
     
     .tablet{
@@ -170,7 +170,7 @@
         /* width: 260px;
         height: 76px; */
         margin-left: 124px;
-        padding: 8px;
+        padding: 10px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -214,7 +214,7 @@
             flex-direction: row;
         }
 
-        .container-address{
+        .conteiner-address{
             width: 260px;
             height: 76px;
         }
@@ -303,7 +303,7 @@
         margin-bottom: 0;
         width: 100%;
         height: 56px;
-        padding: 9px 8px 7px 16px;
+        padding: 8px;
     }
 
     .tel-one{
