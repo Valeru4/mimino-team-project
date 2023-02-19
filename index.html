@@ -13,8 +13,8 @@
       rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
-    <script type="module" crossorigin src="/mimino-team-project/assets/modulepreload-polyfill-ec808ebb.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/index-55f5e9ff.css">
+    <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-7a046fca.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/index-56e1ef80.css">
   </head>
   <body>
     <header>
@@ -25,7 +25,7 @@
     <div class="container">
         <div class="hero-adress-box-mobile">
             <svg width="20" height="20" class="hero-location-icon">
-                <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-location"></use>
+                <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-location"></use>
             </svg>
             <a href="https://goo.gl/maps/NbYGJYo3N7dLKXpx5" target="_blank" class="hero-adress-link">
                 Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
@@ -37,7 +37,7 @@
         <div class="hero-wrap">
             <div class="hero-adress-box">
                 <svg width="20" height="20" class="hero-location-icon">
-                    <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-location"></use>
+                    <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-location"></use>
                 </svg>
                 <a href="https://goo.gl/maps/NbYGJYo3N7dLKXpx5" target="_blank" class="hero-adress-link">
                     Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
@@ -56,21 +56,21 @@
             <li>
                 <a href="https://www.instagram.com/" target="_blank">
                     <svg width="24" height="24" class="hero-social-icon">
-                        <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-instagram"></use>
+                        <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-instagram"></use>
                     </svg>
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/" target="_blank">
                     <svg width="24" height="24" class="hero-social-icon">
-                        <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-facebook"></use>
+                        <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-facebook"></use>
                     </svg>
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/" target="_blank">
                     <svg width="24" height="24" class="hero-social-icon">
-                        <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-telegram"></use>
+                        <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-telegram"></use>
                     </svg>
                 </a>
             </li>
@@ -196,14 +196,14 @@
     <li>
       <button type="button" class="arrow-button">
       <svg width="32" height="32" class="scroll-arrows-icon">
-        <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-Vector-arrow1"></use>
+        <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-Vector-arrow1"></use>
       </svg>
       </button>
     </li>
     <li>
       <button type="button" class="arrow-button">
         <svg width="32" height="32" class="scroll-arrows-icon">
-            <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-Vector-arrow2"></use>
+            <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-Vector-arrow2"></use>
         </svg>
       </button>
     </li>
@@ -271,7 +271,7 @@
                 target="_blank" href="https://web.telegram.org/z/">
                   <span class="footer__soc-icon-title">Telegram</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-telegram"></use>
+                    <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-telegram"></use>
                   </svg>
                 </a>
               </li>
@@ -281,7 +281,7 @@
                   target="_blank" href="https://www.facebook.com" >
                   <span class="footer__soc-icon-title">Facebook</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-facebook"></use>
+                    <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -291,7 +291,7 @@
                   target="_blank" href="https://www.instagram.com">
                   <span class="footer__soc-icon-title">Instagram</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-3b36fc0c.svg#icon-instagram"></use>
+                    <use href="/mimino-team-project/assets/icon-d1388dfc.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li> 
@@ -304,7 +304,83 @@
     </footer>
 
 
-    
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="modal-container">
+<button type="button" data-modal-close class="cross">
+<svg class="cross-button" width="18" height="18">
+  <use href="./images/svg/icons.svg#icon-close" ></use>
+</svg>
+</button>
+<h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+<form name="contact-form" autocomplete="on">
+<div class="modal-box">
+  <div class="modal-list">
+    <div class="form-field">
+      <input class="form-field-input" 
+      id="name" 
+      type="text" 
+      name="name"
+      required
+      pattern="[A-Za-zА-Яа-яЁё]"
+      placeholder="Ваше ім’я">
+      </div>
+    <label class="form-field-label" for="name">На кого забронювати столик?</label>
+     
+  </div>
+  <div class="modal-list">
+    <div class="form-field">
+      <select class="form-field-input"
+       name="quantity" 
+       id="quantity"
+      required>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+    </select>
+      
+      
+    </div>
+    <label class="form-field-label" for="quantity">Столик на яку кількість осіб?</label>
+  </div>
+  
+  <div class="modal-list">
+    <div class="form-field">
+      <input class="form-field-input" 
+      id="tel" 
+      type="tel" 
+      name="tel"
+      required
+      pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" 
+      placeholder="+38 (___) ___-__-__">
+  </div>
+  <label class="form-field-label" for="tel">Номер телефону</label>
+  
+  </div>
+    <div>
+      <div class="form-field">
+      
+          <select class="form-field-input" name="date" id="date"
+          required>
+          <option value="Сьогодні">Сьогодні</option>
+          
+        </select>
+          
+       
+    </div>
+    <label class="form-field-label" for="date">На яку дату бронювати?</label>
+    </div>
+   
+</div>
+
+<button type="submit" class="button-modal">ОФОРМИТИ БРОНЮВАННЯ</button>
+</form>
+</div>
+  </div>
+</div>
     
 
 
