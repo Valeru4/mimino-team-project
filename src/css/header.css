@@ -74,10 +74,11 @@ ul a {
     padding-top: 16px;
     margin-right: auto;
     color: var(--base-white-color);
-    font-family: 'Mimiho';
+    font-family: 'FilmP3Bold';
     font-style: normal;
     font-size: 36px;
     line-height: 1.08;
+    letter-spacing: 0.03em;
 
 }
 
