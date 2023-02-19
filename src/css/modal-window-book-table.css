@@ -29,53 +29,7 @@ border-radius: 2px;
 
    }
 
-   @media screen and (min-width: 1024px)
-{
-    .modal-container{
-        padding: 60px;
-        max-width: 712px;
-    }
-    .modal-title
-    {
-        font-size: 40px;
-line-height: 1.15;
-    }
-    .modal-box
-    {
-        display: flex;
-        gap: 28px 16px;
-        flex-wrap: wrap;
-    }
-    
-.form-field-label
-{
-    font-size: 16px;
-line-height: 1.25;
-    margin: 0;
-}
-.modal-list
-{
-    margin: 0;
-}
-.form-field
-{
-    width: 288px;
-}
-.form-field-input
-        {
-            height: 64px;
-            font-size: 24px;
-        line-height: 1,167;
-        
-        }
-        
-        .button-modal
-        {
-            font-size: 24px;
-            line-height: 1.21;
-            padding: 18px 117px;
-        }
-}
+
 .cross {
     position: absolute;
     right: 16px;
@@ -149,7 +103,7 @@ color:var(--description-section-accent-color);
         line-height: 1.15;
         letter-spacing: 0.05em;
         color: var(--color-modal);
-        
+        background-color: transparent;
     }
       
     .button-modal{
@@ -173,4 +127,51 @@ color:var(--description-section-accent-color);
     .button-modal:focus{
         color:var(--base-white-color);
         background: var(--accent-yellow-color);
+    }
+    @media screen and (min-width: 1024px)
+    {
+        .modal-container{
+            padding: 60px;
+            max-width: 712px;
+        }
+        .modal-title
+        {
+            font-size: 40px;
+    line-height: 1.15;
+        }
+        .modal-box
+        {
+            display: flex;
+            gap: 28px 16px;
+            flex-wrap: wrap;
+        }
+        
+    .form-field-label
+    {
+        font-size: 16px;
+    line-height: 1.25;
+        margin: 0;
+    }
+    .modal-list
+    {
+        margin: 0;
+    }
+    .form-field
+    {
+        width: 288px;
+    }
+    .form-field-input
+            {
+                height: 64px;
+                font-size: 24px;
+            line-height: 1,167;
+            
+            }
+            
+            .button-modal
+            {
+                font-size: 24px;
+                line-height: 1.21;
+                padding: 18px 0;
+            }
     }
