@@ -144,7 +144,7 @@
 
 @media screen and (min-width: 1024px) {
   section.details-restaurant {
-    padding: 48px 0 40px 0;
+    padding: 48px 0 48px 0;
   }
   .details-restaurant-slider > img:nth-last-child(1) {
     display: block;
@@ -264,7 +264,7 @@
   }
 
   section.details-restaurant {
-    padding: 48px 0 40px 0;
+    padding: 48px 0 48px 0;
   }
 }
 
