@@ -78,7 +78,7 @@ ul a {
     font-style: normal;
     font-size: 36px;
     line-height: 1.08;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.3em;
 
 }
 
@@ -184,6 +184,7 @@ ul a {
         margin-right: 207px;
         padding-top: 24px;
         padding-bottom: 33px;
+        font-size: 40px;
     }
 
     .navigation-list_item {
