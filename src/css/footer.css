@@ -50,7 +50,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
     .footer__blocks {
-      padding: 80px 107px 80px 139px;
+      padding: 80px 107px 83px 139px;
       max-width: 960px;
     }
 }
