@@ -26,12 +26,56 @@ max-width: 384px;
    background: var(--section--first-background-color);
 border-radius: 2px;  
 
-@media (min-width: 1024px)
-{
-    padding: 60px;
-    max-width: 712px;
-}
+
    }
+
+   @media screen and (min-width: 1024px)
+{
+    .modal-container{
+        padding: 60px;
+        max-width: 712px;
+    }
+    .modal-title
+    {
+        font-size: 40px;
+line-height: 1.15;
+    }
+    .modal-box
+    {
+        display: flex;
+        gap: 28px 16px;
+        flex-wrap: wrap;
+    }
+    
+.form-field-label
+{
+    font-size: 16px;
+line-height: 1.25;
+    margin: 0;
+}
+.modal-list
+{
+    margin: 0;
+}
+.form-field
+{
+    width: 288px;
+}
+.form-field-input
+        {
+            height: 64px;
+            font-size: 24px;
+        line-height: 1,167;
+        
+        }
+        
+        .button-modal
+        {
+            font-size: 24px;
+            line-height: 1.21;
+            padding: 18px 117px;
+        }
+}
 .cross {
     position: absolute;
     right: 16px;
@@ -39,7 +83,7 @@ border-radius: 2px;
     background: transparent;
     cursor: pointer;
     border: none;
-    fill: #000000;
+    
    
 
 }
@@ -60,24 +104,11 @@ letter-spacing: 0.05em;
     text-align: center;
     margin-bottom: 40px;
 
-    @media (min-width: 1024px)
-    {
-        font-size: 40px;
-line-height: 1.15;
-    }
-
-
 }
     .modal-box {
         display: block;
         margin-bottom: 40px;
 
-        @media (min-width: 1024px)
-    {
-        display: flex;
-        gap: 28px 16px;
-        flex-wrap: wrap;
-    }
 
     } 
 
@@ -90,36 +121,18 @@ letter-spacing: 0.02em;
 color:var(--description-section-accent-color);
 
 
-@media (min-width: 1024px)
-    {
-        font-size: 16px;
-line-height: 1.25;
-        margin: 0;
-    }
-
-
 }
 
 .modal-list{
     margin-bottom: 20px;
 
-    @media (min-width: 1024px)
-    {
-        margin: 0;
-    }
 }
 
 .form-field{
     position: relative;
     margin-bottom: 8px;
     width: 100%;
-    @media (min-width: 1024px)
-    {
-        width: 288px;
-    }
-    
-
-
+   
 }
 
     .form-field-input{
@@ -133,19 +146,10 @@ line-height: 1.25;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
-        line-height: 23px;
+        line-height: 1.15;
         letter-spacing: 0.05em;
         color: var(--color-modal);
-        @media (min-width: 1024px)
-        {
-            height: 64px;
-            font-size: 24px;
-        line-height: 28px;
         
-        }
-        
-
-
     }
       
     .button-modal{
@@ -162,12 +166,6 @@ line-height: 1.25;
         padding: 20px 43px;
         width: 100%;
 
-        @media (min-width: 1024px)
-        {
-            font-size: 24px;
-            line-height: 1.21;
-            padding: 18px 117px;
-        }
 
     }
     
