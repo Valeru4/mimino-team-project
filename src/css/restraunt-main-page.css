@@ -22,7 +22,7 @@
 
 .details-restaurant__btns > div {
   position: absolute;
-  bottom: -40px;
+  bottom: -32px;
 }
 
 .details-restaurant__btn-reserve-table,
@@ -35,11 +35,12 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
+  transition: background-color var(--animation);
 }
 
 .details-restaurant__btn-reserve-table {
   padding: 14px 24px;
-  margin-bottom: 32px ;
+  margin-bottom: 16px ;
 }
 
 .details-restaurant__btn-view-menu {
@@ -123,7 +124,10 @@
   }
   .details-restaurant__btns > div {
     position: absolute;
-    bottom: 60px;
+    bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -240,8 +244,6 @@
 }
 
 
-
-
 @media screen and (max-width: 414px) {
   p.details-restaurant-description {
     width: 100%;
@@ -266,6 +268,9 @@
 @media screen and (max-width: 1023px) {
   .details-restaurant__btns > div {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
