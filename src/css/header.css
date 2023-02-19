@@ -256,12 +256,12 @@ ul a {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 141px;
+        margin-left: 135px;
     }
 
     .media-logo {
-        width: 22px;
-        height: 22px;
+        width: 24px;
+        height: 24px;
         fill: var(--accent-yellow-color);
     }
 
