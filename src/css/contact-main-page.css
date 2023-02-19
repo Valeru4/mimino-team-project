@@ -66,6 +66,7 @@
     }
     .contact-item:last-child{
         margin-bottom: 32px;
+        gap: 8px;
     }
     
     .tablet{
@@ -98,7 +99,8 @@
     .contact-tel{
         display: flex;
         align-items: center;
-        padding: 12px 8px 11px 14px;
+        padding: 8px;
+        gap: 8px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -111,12 +113,19 @@
     }
     
     .icon-tel{
-        margin-right: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 12px;
+        height: 20px;
         fill: var(--description-section-accent-color);
     }
     
     .icon-point{
-        margin-right: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 12px;
         height: 20px;
         fill: var(--description-section-accent-color);
@@ -128,7 +137,7 @@
         align-items: center;
         white-space: nowrap;
         flex-direction: column;
-        padding: 12px 8px 11px 14px;
+        padding: 8px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -143,8 +152,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 12px;
         margin: 0;
+        gap: 8px;
+        padding-right: 12px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -160,7 +170,7 @@
         /* width: 260px;
         height: 76px; */
         margin-left: 124px;
-        padding: 12px 8px 11px 16px;
+        padding: 8px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -298,6 +308,7 @@
 
     .tel-one{
         padding-right: 16px;
+        gap: 8px;
     }
 
     .container-address{
