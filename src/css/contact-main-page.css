@@ -12,28 +12,20 @@
     padding-bottom: 32px;
 }
 
-.container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .contact-info {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     padding: 0;
-    padding-top: 36px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    /* padding-top: 36px; */
+
 }
 
 .contact-logo {
-    width: 127px;
-    height: 43px;
+    /* width: 127px;
+    height: 43px; */
     margin-bottom: 12px;
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -44,7 +36,7 @@
 
 .contact-title {
     margin-bottom: 16px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -65,6 +57,7 @@
 }
 
 .contact-item:last-child {
+    display: flex;
     margin-bottom: 32px;
     gap: 10px;
 }
@@ -75,7 +68,7 @@
 
 .rest-contact {
     margin-right: 22px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -86,8 +79,8 @@
 
 .hotel-cont {
     margin-right: 54px;
-    width: 100%;
-    font-family: 'Montserrat';
+    /* width: 100%; */
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -100,9 +93,8 @@
 .contact-tel {
     display: flex;
     align-items: center;
-    padding: 8px;
-    gap: 8px;
-    font-family: 'Montserrat';
+    padding: 9px 8px 7px 8px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -118,8 +110,8 @@
     align-items: center;
     justify-content: center;
     gap: 8px;
-    width: 12px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     fill: var(--description-section-accent-color);
 }
 
@@ -127,8 +119,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12px;
-    height: 20px;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
     fill: var(--description-section-accent-color);
 }
 
@@ -138,8 +131,8 @@
     align-items: center;
     white-space: nowrap;
     flex-direction: column;
-    padding: 8px;
-    font-family: 'Montserrat';
+    padding: 9px 8px 7px 8px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -157,7 +150,7 @@
     margin: 0;
     gap: 8px;
     padding-right: 12px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -172,8 +165,8 @@
     /* width: 260px;
         height: 76px; */
     margin-left: 124px;
-    padding: 10px;
-    font-family: 'Montserrat';
+    padding: 9px 8px 7px 10px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -199,21 +192,16 @@
     border-radius: 2px;
 }
 
-/* .map{
-        padding-bottom: 32px;
-    } */
-
 
 /* ----------------MOBILE------------ */
 
 
 @media screen and (min-width: 414px) {
 
-    .container {
-        max-width: 414px;
-    }
 
     .contact-tel-hotel {
+        width: 260px;
+        height: 40px;
         flex-direction: row;
     }
 
@@ -235,7 +223,7 @@
 
 
 
-/* ------------------TABLET------------- */
+/* ------------------TABLET------------------ */
 
 @media screen and (min-width: 1024px) {
 
@@ -244,19 +232,19 @@
         padding-bottom: 44px;
     }
 
-    .container {
+    .contact-main-page {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        max-width: 960px;
-        /* padding-left: 47px;
-        padding-right: 47px; */
     }
 
+
     .contact-info {
-        /* padding-top: 56px;
-        padding-bottom: 44px; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
     }
 
     .contact-logo {
@@ -306,9 +294,8 @@
     .contact-item:last-child {
         margin-left: 0;
         margin-bottom: 0;
-        width: 100%;
+        width: 285px;
         height: 56px;
-        padding: 8px;
     }
 
     .tel-one {
@@ -343,7 +330,7 @@
 
 
 
-/*------------------DESCTOP---------*/
+/*------------------DESCTOP----------------*/
 @media screen and (min-width: 1280px) {
 
     .contact-section {
@@ -351,16 +338,13 @@
         padding-bottom: 44px;
     }
 
-    .container {
+    .contact-main-page {
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        max-width: 1140px;
     }
 
-    /* .contact-info{
-        padding-bottom: 73px;
-    } */
 
     .contact-title {
         margin-bottom: 40px;
