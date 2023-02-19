@@ -3,30 +3,15 @@
     padding-top: 32px;
     background-color: var(--section--first-background-color);
 
-    @media (min-width: 1024px)
-   {
-    padding-top: 50px;
-    padding-bottom: 40px;
-   }
-
-   @media (min-width: 1280px){
-    padding-top: 48px;
-    padding-bottom: 48px;
-    
-   }
-
 }
-
-
 .amenities-title{
     font-family: 'Times New Roman';
     font-weight: 400;
     font-size: 32px;
     line-height: 1.156;
-    margin-bottom: 16px;
-
-   
+    margin-bottom: 16px; 
 }
+
 .amenities-title-p{
     font-family: 'Montserrat';
 font-weight: 700;
@@ -36,38 +21,21 @@ letter-spacing: 0.02em;
 color:var(--description-section-color);
 margin-bottom: 32px;
 
-    @media (min-width: 1024px)
-    {
-    max-width: 757px;
-     margin-bottom: 37px;
-     
-    }
-
 }
 
 .amenities-p{
 
-    font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-weight: 700;
 font-size: 16px;
 line-height: 1.25;
 letter-spacing: 0.02em;
 color:var(--description-section-color);
 margin-bottom: 32px;
-
-    @media (min-width: 1024px)
-    {
-        margin-bottom: 0;
-     
-    }
-    @media (min-width: 1280px)
-    {
-    max-width: 400px;
-    }
  
 }
     .amenities-li{
-        font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-weight: 700;
 font-size: 16px;
 line-height: 1.25;
@@ -82,33 +50,8 @@ font-size: 24px;
 line-height: 1.167;
 margin-bottom: 16px;
 
-
 }
-
-.amenities-link{
-    @media (min-width: 1024px)
-    {
-    display: flex;
-     gap: 80px;
-    }
-
-    @media (min-width: 1280px)
-    {
-    
-     gap: 159px;
-    }
-
-
-}
-
-.amenities-list{
-    @media (min-width: 1024px)
-    {
-    max-width: 400px;
-    }
-
-}
-
+  
 
 .amenities-text{
     font-family: 'Montserrat';
@@ -119,40 +62,19 @@ letter-spacing: 0.02em;
 color:var(--description-section-color);
 margin-bottom: 16px;
 
-@media (min-width: 1024px)
-    {
-        margin-bottom: 32px;
-     
-    }
-    @media (min-width: 1280px)
-    {
-    max-width: 400px;
-    }
 }
 
 .amenities-btn{
     margin-top: 32px;
-
-    @media (min-width: 1024px)
-    {
-    
-    margin-top: 40px;
-    position: absolute;
-    right: 47px;
-    }
-    @media (min-width: 1280px)
-    {
-       margin-right: 199px; 
-    
-    }
-
-
+    margin-left: auto;
+    margin-right: auto;
+       
 }
 
 .amenities-button{
     padding: 20px 43px;
     background:var(--base-black-color);
-border: 1px solid #F3C653;
+border: 1px solid var(--accent-yellow-color);
 border-radius: 25px;
 font-family: 'Montserrat';
 font-weight: 500;
@@ -160,26 +82,13 @@ font-size: 20px;
 line-height: 1.2;
 color:var(--base-white-color);
 white-space:nowrap;
-
 margin-bottom: 20px;
-
-@media (min-width: 1024px)
-    {
-        padding: 18px 38px;
-    margin-bottom: 32px;
-    }
-    @media (min-width: 1280px)
-    {
-    
-     
-    }
-
 
 }
 .amenities-button:hover{
-    background: #F3C653;
-border: 1px solid #F3C653;
-color: #000;
+background:var(--accent-yellow-color);
+border: 1px solid var(--accent-yellow-color);
+color: var(  --base-black-color);
 }
 
 
@@ -193,25 +102,84 @@ letter-spacing: 0.02em;
 color:var(--description-section-accent-color);
 fill: var(--description-section-accent-color);
 display: flex;
-padding-left: 16px;
-padding-right: 16px;
 align-items: center;
-  justify-content: center;
+  
   cursor: pointer;
-
+  background-color: transparent;
+    border: none;
   
 }
 
 .amenities-icon{
-    
     margin-left: 12px;
-    fill: var(--description-section-accent-color);
+    
 }
 
 .amenities-caption:hover{
+    fill: var( --accent-yellow-color);
     color: var( --accent-yellow-color) ;
     
 }
-.amenities-icon:hover{
-    fill: var( --accent-yellow-color);
+@media screen and (min-width: 1024px)
+    { .amenities-link{
+        display: flex;
+     gap: 80px;
+    }
+    .amenities-list{
+      max-width: 400px;
+            
+    }
+    .section-amenities{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .amenities-title-p{
+        max-width: 757px;
+        margin-bottom: 37px;
+    }
+    .amenities-p{
+        margin-bottom: 0;
+    }
+    .amenities-text {
+        margin-bottom: 32px;
+     
+    }
+    .amenities-btn
+    {
+    margin-top: 40px;
+    margin-left: 543px;
+    }
+    
+.amenities-button
+{
+    padding: 18px 38px;
+margin-bottom: 32px;
 }
+
+    }
+
+    @media screen and (min-width: 1280px)
+    {
+        .amenities-link{
+            gap: 159px;
+        }
+        .section-amenities{
+            padding-top: 48px;
+    padding-bottom: 48px;
+        }
+        .amenities-p{
+            max-width: 400px;
+        }
+        .amenities-text
+    {
+    max-width: 400px;
+    }
+    .amenities-btn
+    {
+        margin-left: 600px;
+    
+    }
+    }
+    
+    
+    
