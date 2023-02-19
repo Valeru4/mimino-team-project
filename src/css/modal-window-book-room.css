@@ -1,140 +1,131 @@
-:root {
-    --base-white-color: #FFFFFF;
-    --base-black-color: #000000;
-    --accent-yellow-color: #F3C653;
-    --header-adress-text-color: #E5E5E5;
-    --subtitle-section-text-color: #B4B4B4;
-    --logo-section-color: #494848;
-    --description-section-color: #7A7A7A;
-    --description-section-accent-color:  #C79002;
-    --description-section-text-color: #BABABA;
-    --background-footer-color: #0E0C07;
-    --section--first-background-color: #FFFDEE;
-    --section-second-background-color: #F0ECD6;
-    --background-button-color: rgba(0, 0, 0, 0.4);
-    --contact-color: #828282;
-    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --input-placeholder-color: #808080;
-
-}
-
 body {
     font-family: 'Montserrat';
 }
 
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--section--first-background-color);
+    border: 1px solid var(--description-section-accent-color);
+    transform: translate(-50%, -50%);
+}
 
+.modal-close {
+    width: 24px;
+    height: 24px;
+    fill: var(--base-black-color)
+}
+
+.modal-close_btn {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    fill: var(--base-black-color);
+    cursor: pointer;
+}
+
+.contact-form_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 0;
+    color: var(--base-black-color);
+    font-family: "Times New Roman";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+
+.form-input {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    width: 100%;
+    border: 1px solid var(--description-section-accent-color);
+    border-radius: 2px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: var(--input-placeholder-color);
+    background-color: var(--section--first-background-color);
+    letter-spacing: 0.05em;
+}
+
+.form-label {
+    color: var(--description-section-accent-color);
+    margin-left: 12px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+}
+
+.modal-input {
+    margin-bottom: 20px;
+}
+
+.modal-input:last-child {
+    margin-bottom: 40px;
+}
+
+.book {
+    display: inline-block;
+    width: 100%;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--base-white-color);
+    background-color: var(--base-black-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+}
+
+.book:hover,
+.book:focus {
+    background-color: var(--accent-yellow-color);
+    color: var(--base-black-color);
+}
+
+
+@media screen and (min-width: 414px) {
     .modal {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 414px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: var(--section-second-background-color);
-        border: 1px solid var(--description-section-accent-color);
-        transform: translate(-50%, -50%);
-    }
-
-    .modal-close {
-        width: 24px;
-        height: 24px;
-        fill: var(--base-black-color)
-    }
-
-    .modal-close_btn {
-        position: absolute;
-        right: 20px;
-        top: 19px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 30px;
-        height: 30px;
-        border: none;
-        background-color: transparent;
-        fill: var(--base-black-color);
-        cursor: pointer;
-    }
-
-    .contact-form_inputs {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .form-title {
-        text-align: center;
-        margin-bottom: 36px;
-        color: var(--base-black-color);
-        font-family: "Times New Roman";
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 1.16;
-        letter-spacing: 0.05em;
+        width: 414px;  
     }
 
     .form-input {
-        padding-top: 17px;
-        padding-bottom: 17px;
-        padding-left: 12px;
-        margin-bottom: 8px;
-        width: 398px;
-        border: 1px solid var(--description-section-accent-color);
-        border-radius: 2px;
-        font-family: 'Times New Roman';
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 1.16;
-        color: var(--input-placeholder-color);
-        background-color: var(--section--first-background-color);
-        letter-spacing: 0.05em;
+        width: 398px;       
     }
 
-    .form-label {
-        color: var(--description-section-accent-color);
-        margin-left: 12px;
-        font-size: 14px;
-        font-family: 'Montserrat';
-        font-weight: 500;
-        line-height: 1.16;
-        letter-spacing: 0.02em;
-    }
+}
 
-    .modal-input {
-        margin-bottom: 20px;
-    }
-
-    .modal-input:last-child {
-        margin-bottom: 40px;
-    }
-
-    .book {
-        display: inline-block;
-        width: 100%;
-        height: 64px;
-        font-size: 20px;
-        font-weight: 500;
-        font-family: 'Montserrat', sans-serif;
-        color: var(--base-white-color);
-        background-color: var(--base-black-color);
-        border: 1px solid var(--accent-yellow-color);
-    }
-
-
+/*-----Tablet and Desktop---*/
 
 @media screen and (min-width: 1024px) {
-
-
     .modal {
         width: 712px;
-        height: 638px;
     }
-
-   /* .modal-close_btn:hover,
-    .modal-close_btn:focus {
-        fill: #000000;
-    }*/
 
     .contact-form_inputs {
         flex-direction: row;
@@ -185,14 +176,7 @@ body {
         margin-bottom: 40px;
     }
 
-
-    .book {
-        display: inline-block;
+    .book {        
         width: 592px;
-        height: 64px;
-        margin-left: 60px;
-        margin-right: 60px;
-        color: var(--base-white-color);
-        background-color: var(--base-black-color);
     }
 }
