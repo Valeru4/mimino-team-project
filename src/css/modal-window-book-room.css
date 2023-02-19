@@ -22,7 +22,7 @@ body {
     font-family: 'Montserrat';
 }
 
-@media screen and (min-width: 414px) {
+
     .modal {
         position: absolute;
         top: 50%;
@@ -120,7 +120,6 @@ body {
         background-color: var(--base-black-color);
         border: 1px solid var(--accent-yellow-color);
     }
-}
 
 
 
