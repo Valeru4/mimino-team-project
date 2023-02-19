@@ -49,14 +49,16 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    footer {
+    .footer__blocks {
       padding: 80px 107px 80px 139px;
+      max-width: 960px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    footer {
+    .footer__blocks {
         padding: 80px 171px 80px 211px;
+        max-width: 1140px;
     }
 }
 
