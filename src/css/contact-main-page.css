@@ -22,11 +22,10 @@
     .contact-info {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
         padding: 0;
         /* padding-top: 36px; */
-        /* flex-wrap: wrap;
-        justify-content: flex-start; */
+        
     }
 
     .contact-logo{
@@ -64,6 +63,7 @@
         margin-bottom: 16px;
     }
     .contact-item:last-child{
+        display: flex;
         margin-bottom: 32px;
         gap: 10px;
     }
@@ -196,10 +196,6 @@
      border-radius: 2px;
      }
     
-     /* .map{
-        padding-bottom: 32px;
-    } */
-    
 
     /* ----------------MOBILE------------ */
 
@@ -246,16 +242,21 @@
         justify-content: flex-start;
         align-items: center;
         max-width: 960px;
-        padding-left: 47px;
-        padding-right: 47px;
     } */
+
+    .contact-main-page{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
 
     .contact-info{
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        /* padding-top: 56px;
-        padding-bottom: 44px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
     }
 
     .contact-logo{
@@ -304,9 +305,8 @@
     .contact-item:last-child {
         margin-left: 0;
         margin-bottom: 0;
-        width: 100%;
-        height: 56px;
-        padding: 8px;
+        /* width: 285px;
+        height: 56px; */
     }
 
     .tel-one{
@@ -351,14 +351,17 @@
     /* .container {
         display: flex;
         justify-content: flex-start;
-        align-items: center;
+        align-items: center; 
         max-width: 1140px;
     } */
 
+    .contact-main-page{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
 
-    /* .contact-info{
-        padding-bottom: 73px;
-    } */
 
     .contact-title{
         margin-bottom: 40px;
