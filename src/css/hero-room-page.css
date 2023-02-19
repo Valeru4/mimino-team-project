@@ -146,7 +146,7 @@
 .hero-btn {
     position: absolute;
     bottom: 40px;
-    left: 100px;
+    right: 73px;;
 
     padding: 12px 24px;
     color: var(--accent-yellow-color);
@@ -262,7 +262,7 @@
 
     .hero-btn {
         bottom: 62px;
-        left: 723px;
+        right: 15px;
 
         padding: 14px 35px;
     }
@@ -301,6 +301,5 @@
 
     .hero-btn {
         bottom: 28px;
-        left: 903px;
     }
 } 
