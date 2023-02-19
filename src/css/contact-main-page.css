@@ -305,8 +305,8 @@
     .contact-item:last-child {
         margin-left: 0;
         margin-bottom: 0;
-        /* width: 285px;
-        height: 56px; */
+        width: 285px;
+        height: 56px;
     }
 
     .tel-one{
