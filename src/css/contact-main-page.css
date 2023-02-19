@@ -7,6 +7,10 @@
     background-color: var(--section--first-background-color);
 }
 
+.contact-section{
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
 
     .container  {
         padding-left: 15px;
@@ -16,22 +20,25 @@
     }
     
     .contact-info {
+        display: flex;
+        flex-direction: column;
         width: 100%;
         display: flex;
         padding: 0;
-        padding-top: 36px;
+        /* padding-top: 36px; */
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+
     .contact-logo{
     width: 127px;
     height: 43px;
     margin-bottom: 12px;
-    font-family: 'Film P3';
+    font-family: 'FilmP3Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 43px;
+    line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--logo-section-color);
     }
@@ -42,7 +49,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     letter-spacing: 0.02em;
     color: var(--description-section-color);
     }
@@ -70,18 +77,19 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--description-section-accent-color);
     }
     
     .hotel-cont{
     margin-right: 54px;
+    width: 100%;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--description-section-accent-color);
     
@@ -95,7 +103,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         background: var(--base-white-color);
         border: 0.5px solid var(--accent-yellow-color);
@@ -119,12 +127,13 @@
         justify-content: center;
         align-items: center;
         white-space: nowrap;
+        flex-direction: column;
         padding: 12px 8px 11px 14px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         background: var(--base-white-color);
         border: 0.5px solid var(--accent-yellow-color);
@@ -140,7 +149,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
      }
     
@@ -148,15 +157,15 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 260px;
-        height: 76px;
+        /* width: 260px;
+        height: 76px; */
         margin-left: 124px;
         padding: 12px 8px 11px 16px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         background: var(--base-white-color);
         border: 0.5px solid var(--accent-yellow-color);
@@ -164,36 +173,66 @@
      }
     .break-word{
         overflow-wrap: break-word;
-        padding-right: 33px;
+        /* padding-right: 33px; */
     }
+
      .map-container{
-     width: 384px;
-     height: 220px;
+        width: 100%;
+     /* width: 384px;
+     height: 220px; */
      background: url(.png);
      border: 1px solid var(--subtitle-section-text-color);
      box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
      border-radius: 2px;
      }
     
-     .map{
+     /* .map{
         padding-bottom: 32px;
-    }
+    } */
     
+
+    /* ----------------MOBILE------------ */
+
+
     @media screen and (min-width: 414px) {
+
         .container {
         max-width: 414px;
         }
-    
-        .rest-contact{
-            margin-right: 22px;
+
+        .contact-tel-hotel{
+            flex-direction: row;
         }
+
+        .container-address{
+            width: 260px;
+            height: 76px;
+        }
+
+        .break-word{
+            padding-right: 33px;
+        }
+
+        .map-container{
+         width: 384px;
+         height: 220px;
+        }
+        
     }
+
+
 
 /* ------------------TABLET------------- */
 
  @media screen and (min-width: 1024px) {
+
+    .contact-section{
+        padding-top: 56px;
+        padding-bottom: 44px;
+    }
     .container {
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         max-width: 960px;
@@ -202,15 +241,15 @@
     }
 
     .contact-info{
-        padding-top: 56px;
-        padding-bottom: 44px;
+        /* padding-top: 56px;
+        padding-bottom: 44px; */
     }
 
     .contact-logo{
         width: 202px;
         height: 69px;
         font-size: 64px;
-        line-height: 69px;
+        line-height: 1.07;
         margin-bottom: 8px;
         padding-top: 0;
     }
@@ -218,7 +257,7 @@
     .contact-title{
         margin-bottom: 52px;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 1.25;
     }
 
     .contact-list{
@@ -279,13 +318,22 @@
     }
 
     .map{
-        padding-top: 69px;
-        padding-bottom: 40px;
+        margin-top: 13px;
+        margin-bottom: 4px;
+        /* padding-top: 69px;
+        padding-bottom: 40px; */
      }
 }
 
+
+
 /*------------------DESCTOP---------*/
 @media screen and (min-width: 1280px) {
+
+    .contact-section {
+        padding-top: 56px;
+        padding-bottom: 44px;
+    }
     .container {
         display: flex;
         justify-content: flex-start;
@@ -293,19 +341,21 @@
         max-width: 1140px;
     }
 
-    .contact-info{
+    /* .contact-info{
         padding-bottom: 73px;
-    }
+    } */
 
     .contact-title{
         margin-bottom: 40px;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
     }
 
     .map{
-        padding-top: 64px;
-        padding-bottom: 74px;
+        margin-top: 8px;
+        margin-bottom: 1px;
+        /* padding-top: 64px;
+        padding-bottom: 74px; */
     }
     .map-container{
      width: 634px;
