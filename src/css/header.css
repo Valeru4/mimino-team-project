@@ -29,13 +29,13 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.container {
+/*.container {
     min-width: 414px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 .list {
     list-style: none;
