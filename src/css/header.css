@@ -91,7 +91,6 @@ ul a {
 .navigation-list_item {
     display: flex;
     justify-content: center;
-    margin-right: 56px;
 }
 
 .navigation-list_item:first-child {
@@ -181,7 +180,7 @@ ul a {
     }
     
     .logo {
-        margin-right: 207px;
+        margin-right: 195px;
         padding-top: 24px;
         padding-bottom: 33px;
         font-size: 40px;
@@ -249,10 +248,15 @@ ul a {
         margin-right: 0;
     }
 
+    .logo {
+        margin-right: 125px;
+    }
+
     .media {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 141px;
     }
 
     .media-logo {
@@ -260,8 +264,6 @@ ul a {
         height: 22px;
         fill: var(--accent-yellow-color);
     }
-
-   
 
     .media .media-item + .media-item {
         margin-left: 23px;
