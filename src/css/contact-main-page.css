@@ -12,12 +12,12 @@
     padding-bottom: 32px;
 }
 
-    .container  {
+    /* .container  {
         padding-left: 15px;
         padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
     
     .contact-info {
         display: flex;
@@ -98,8 +98,8 @@
     .contact-tel{
         display: flex;
         align-items: center;
-        padding: 8px;
-        gap: 8px;
+        padding: 9px 8px 7px 8px;
+        /* gap: 8px; */
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -125,6 +125,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        gap: 10px;
         width: 24px;
         height: 24px;
         fill: var(--description-section-accent-color);
@@ -136,7 +137,7 @@
         align-items: center;
         white-space: nowrap;
         flex-direction: column;
-        padding: 8px;
+        padding: 9px 8px 7px 8px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -169,7 +170,7 @@
         /* width: 260px;
         height: 76px; */
         margin-left: 124px;
-        padding: 10px;
+        padding: 9px 8px 7px 10px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -239,15 +240,15 @@
         padding-top: 56px;
         padding-bottom: 44px;
     }
-    .container {
+    /* .container {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         max-width: 960px;
-        /* padding-left: 47px;
-        padding-right: 47px; */
-    }
+        padding-left: 47px;
+        padding-right: 47px;
+    } */
 
     .contact-info{
         flex-wrap: wrap;
@@ -346,12 +347,12 @@
         padding-top: 56px;
         padding-bottom: 44px;
     }
-    .container {
+    /* .container {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         max-width: 1140px;
-    }
+    } */
 
     /* .contact-info{
         padding-bottom: 73px;
