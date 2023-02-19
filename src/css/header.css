@@ -230,6 +230,11 @@ ul a {
         
     }*/
 
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+
     .navigation {
         margin-right: 0;
     }
