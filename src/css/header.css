@@ -29,14 +29,6 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/*.container {
-    min-width: 414px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}*/
-
 .list {
     list-style: none;
     padding: 0;
@@ -48,12 +40,6 @@ ul a {
 }
 
 /*---Mobile---*/
-
-/*@media screen and (min-width: 414px) {
-    .container {
-        width: 414px;
-    }
-}*/
 
 .navigation {
     display: flex;
