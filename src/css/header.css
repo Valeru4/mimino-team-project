@@ -107,39 +107,6 @@ ul a {
     margin-right: 12px;
 }
 
-.address {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 11px;
-    width: 210px;
-    height: 47px;
-    margin-left: auto;
-    border-radius: 2px;
-    border: 1px solid rgba(243, 198, 83, .7);
-}
-
-.address-pin {
-    margin-right: 13px;
-    width: 24px;
-    height: 24px;
-    fill: var(--accent-yellow-color);
-}
-
-.address p {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-right: 3;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    width: 179px;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.25;
-    text-align: left;
-    color: var(--header-adress-text-color);
-}
-
 
 
 @media screen and (min-width: 1024px){
