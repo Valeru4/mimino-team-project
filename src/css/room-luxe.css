@@ -65,6 +65,32 @@
     height: 100%;
     border-radius: 2px;
 }
+.slider{
+    margin-bottom: 20px;
+    position: relative;
+    right: 15px;
+}
+
+.about-luxe-img-container{
+    width: 284px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.arrows{
+    display: flex;
+    gap: 32px;
+    padding-left: 15px;
+}
+.icon{
+    transition: fill var(--animation);
+}
+.icon:hover{
+    fill: var(--accent-yellow-color);
+}
+.icon:focus {
+    fill: var(--accent-yellow-color);
+}
 
 .luxe-button {
     width: 236px;
@@ -117,7 +143,7 @@
 
     .luxe-section {
         padding-top: 62px;
-        padding-bottom: 145px;
+        padding-bottom: 40px;
     }
 
     .luxe-section-pre-title {
@@ -142,17 +168,32 @@
         font-size: 16px;
         line-height: 1.25;
         max-width: 440px;
-        margin-bottom: 217px;
+        margin-bottom: 176px;
     }
-
+    .wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .luxe-img-container {
         width: 400px;
         height: 524px;
         position: absolute;
         top: -94px;
         right: 112px;
+        margin-bottom: 0;
     }
-
+    .slider{
+        right: 0;
+        margin-bottom: 0;
+    }
+    .about-luxe-img-container {
+        width: 428px;
+    }
+    .arrows{
+        padding-left: 0;
+        justify-content: flex-end;
+    }
     .luxe-button {
         margin: 0 0 16px auto;
     }
@@ -161,7 +202,7 @@
 @media screen and (min-width: 1280px) {
     .luxe-section {
             padding-top: 72px;
-            padding-bottom: 182px;
+            padding-bottom: 40px;
         }
     .luxe-section .container {
         max-width: 1280px;
@@ -186,7 +227,10 @@
         width: 460px;
         height: 574px;
         position: absolute;
-        top: -118px;
+        top: -100px;
         right: 180px;
+    }
+    .about-luxe-img-container {
+        width: 548px;
     }
 }
