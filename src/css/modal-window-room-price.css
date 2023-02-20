@@ -1,0 +1,208 @@
+/* --------MODAL WINDOW - ROOM PRICE-------- */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-price {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  max-width: 414px;
+  height: 572px;
+  height: auto;
+  padding: 60px 15px;
+  background-color: var(--section--first-background-color);
+  border-radius: 2px;
+
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform var(--animation);
+}
+
+.overlay.is-hidden .modal-price {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.modal-price-close-btn {
+  position: absolute;
+  display: flex;
+  top: 16px;
+  right: 16px;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+.modal-price-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Times New Roman", sans-serif;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--base-black-color);
+}
+
+.modal-price-type {
+  margin-bottom: 28px;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--modal-input-text-color);
+}
+
+.modal-price-rank,
+.modal-price-field {
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--description-section-accent-color);
+}
+
+.modal-price-field {
+  margin-left: 15px;
+}
+
+.modal-price-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-select-wrap {
+  margin-bottom: 20px;
+}
+
+.modal-input-wrap {
+  margin-bottom: 40px;
+}
+
+.modal-price-input {
+  width: 100%;
+  height: 54px;
+  padding: 13px 15px;
+  margin-bottom: 8px;
+  font-family: "Times New Roman", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: var(--modal-input-text-color);
+  background-color: transparent;
+  outline: none;
+  border: 1px solid var(--description-section-accent-color);
+}
+
+.modal-select-wrap {
+  position: relative;
+}
+
+.modal-select-wrap:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: 18%;
+  right: 15px;
+  z-index: 1;
+  pointer-events: none;
+  background-image: url(../img/modal-window-room-price/icon-select.svg);
+  background-repeat: no-repeat;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.modal-price-book-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  height: 64px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--base-white-color);
+  background-color: var(--base-black-color);
+  border: 1px solid var(--accent-yellow-color);
+  border-radius: 2px;
+}
+
+@media screen and (max-height: 620px) {
+  .modal-price {
+    height: 98%;
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .modal-price {
+    max-width: 712px;
+    padding: 60px;
+  }
+
+  .modal-price-title {
+    font-size: 32px;
+    line-height: 1.16;
+  }
+
+  .modal-price-form {
+    flex-flow: wrap;
+  }
+
+  .modal-select-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+  }
+
+  .modal-input-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-price-input {
+    width: 288px;
+    height: 64px;
+    padding: 18px 20px 18px 12px;
+  }
+
+  .modal-price-field {
+    margin-bottom: 0;
+  }
+
+  .modal-price-book-btn {
+    font-size: 24px;
+    line-height: 1.21;
+
+    transition: background-color var(--animation), 
+    color var(--animation);
+  }
+
+  .modal-price-book-btn:hover,
+  .modal-price-book-btn:focus {
+    background-color: var(--accent-yellow-color);
+    color: var(--base-black-color);
+  }
+}
