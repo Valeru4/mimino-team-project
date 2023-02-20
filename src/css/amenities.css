@@ -75,6 +75,7 @@ margin-bottom: 16px;
     padding: 20px 0;
     background:var(--base-black-color);
 border: 1px solid var(--accent-yellow-color);
+border: 1px solid var(--accent-yellow-color);
 border-radius: 25px;
 font-family: 'Montserrat';
 font-weight: 500;
@@ -108,15 +109,19 @@ align-items: center;
   cursor: pointer;
   background-color: transparent;
     border: none;
+  background-color: transparent;
+    border: none;
   
 }
 
 .amenities-icon{
     margin-left: 12px;
     
+    
 }
 
 .amenities-caption:hover{
+    fill: var( --accent-yellow-color);
     fill: var( --accent-yellow-color);
     color: var( --accent-yellow-color) ;
     
