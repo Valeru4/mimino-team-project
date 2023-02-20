@@ -48,17 +48,18 @@ footer {
 }
 
 .footer__blocks  {
-    padding: 40px 15px 40px 44px;
+    padding: 40px 30px 40px 59px;
 }
 
 @media screen and (min-width: 1024px) {
     .footer__blocks {
-      padding: 80px 107px 83px 139px;
+      padding: 80px 75px 83px 107px;
       max-width: 960px;
     }
 
     .footer__logo {
-    margin-right: 163px;
+        /* width: 202px; */
+        margin-right: 163px;
     }         
 
     .footer__navigation {
@@ -68,7 +69,7 @@ footer {
 
 @media screen and (min-width: 1280px) {
     .footer__blocks {
-        padding: 80px 171px 80px 211px;
+        padding: 80px 101px 80px 131px;
         max-width: 1140px;
     }
     .footer__logo {

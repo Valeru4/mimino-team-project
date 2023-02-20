@@ -1,0 +1,238 @@
+/*:root {
+    --base-white-color: #FFFFFF;
+    --base-black-color: #000000;
+    --accent-yellow-color: #F3C653;
+    --header-adress-text-color: #E5E5E5;
+    --subtitle-section-text-color: #B4B4B4;
+    --logo-section-color: #494848;
+    --description-section-color: #7A7A7A;
+    --description-section-accent-color:  #C79002;
+    --description-section-text-color: #BABABA;
+    --background-footer-color: #0E0C07;
+    --section--first-background-color: #FFFDEE;
+    --section-second-background-color: #F0ECD6;
+    --background-button-color: rgba(0, 0, 0, 0.4);
+    --contact-color: #828282;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}*/
+
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container .hero {
+    position: relative;
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container header {
+    position: relative;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+/*---Mobile---*/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.navigation-list_span {
+    display: none;
+}
+
+.media {
+    display: none;
+}
+
+.logo {
+    text-decoration: none;
+    padding-top: 16px;
+    margin-right: auto;
+    color: var(--base-white-color);
+    font-family: 'FilmP3Bold';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: baseline;
+    padding-top: 28px;
+}
+
+.navigation-list_item {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-list_item:first-child {
+    margin-right: 26px;
+}
+
+.navigation-list_title {
+    color: var(--accent-yellow-color);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.nav-phone {
+    display: block;
+}
+
+.navigation-list_svg {
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    margin-bottom: 14px;
+}
+
+
+.navigation-list_title {
+    margin-right: 12px;
+}
+
+
+
+@media screen and (min-width: 1024px){
+    /*.container {
+        width: 1280px;
+    }   */
+
+    header {
+        padding-top: 30px;
+    }   
+
+    .navigation-list {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navigation-list_span {
+        display: block;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: var(--base-white-color);
+    }
+    
+    .logo {
+        margin-right: 195px;
+        padding-top: 24px;
+        padding-bottom: 33px;
+        font-size: 40px;
+    }
+
+    .navigation-list_item {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-list_title {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-right: 32px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .navigation-list_item:first-child {
+        margin-right: 72px;
+    }
+
+    .navigation-list_phone {
+        display: flex;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 14px;
+        padding-right: 8px;
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 144px;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        border: 1px solid rgba(243, 198, 83, .7);
+        border-radius: 2px;
+    }
+
+    .navigation-list_svg {
+        width: 12px;
+        height: 20px;
+        margin-right: 10px;
+        margin-bottom: 0;
+        fill: rgba(243, 198, 83, .7);
+    }
+
+    .address {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    /*.container {
+        width: 1140px;
+        
+    }*/
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation {
+        margin-right: 0;
+    }
+
+    .logo {
+        margin-right: 125px;
+    }
+
+    .media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 135px;
+    }
+
+    .media-logo {
+        width: 24px;
+        height: 24px;
+        fill: var(--accent-yellow-color);
+    }
+
+    .media .media-item + .media-item {
+        margin-left: 23px;
+    }
+
+}

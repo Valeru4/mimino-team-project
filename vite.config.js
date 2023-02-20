@@ -9,15 +9,13 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/index.html'),
-        nested: resolve(__dirname, 'src/hotel.html'),
-        nested: resolve(__dirname, 'src/room.html'),
-        nested: resolve(__dirname, 'src/restraunt.html'),
+        hotel: resolve(__dirname, 'src/hotel.html'),
+        room: resolve(__dirname, 'src/room.html'),
+        restraunt: resolve(__dirname, 'src/restraunt.html'),
       },
     },
-
-    
-
     outDir: '../dist',
   },
   plugins: [injectHTML(), FullReload(['./src/**/**.html'])],
 });
+

@@ -1,0 +1,72 @@
+<section>
+    <div class="backdrop" id="modal">
+        <div class="modal-room">
+            <button type="button" class="modal-close_btn close">
+                <svg class="modal-close" width="18" height="18">
+                    <use href="../img/sprite/icon.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <form class="contact-form">
+                <p class="form-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                    <div class="contact-form_inputs">
+                        <div class="modal-input">
+                            <input 
+                                class="form-input"
+                                type="text" 
+                                name="name" 
+                                id="user-name" 
+                                placeholder="Ваше ім’я"
+                            >
+                            <label for="user-name" class="form-label">
+                                На кого забронювати номер?
+                                </label>
+                        </div>
+
+                    <div class="modal-input">
+                            <input 
+                                class="form-input" 
+                                type="tel" 
+                                name="tel" 
+                                id="user-tel" 
+                                placeholder="+38(___) ___-__-__"
+                            >
+                            <label for="user-tel" class="form-label">Номер телефону</label>
+                    </div>
+
+                    <div class="modal-input">
+                            <select class="form-input first-select" id="user-room" name="user-room">
+                                <option value="one">Двомісний люкс</option>
+                                <option value="two">Трьохмісний номер</option>
+                                <option value="three">Двомісний номер</option>
+                            </select>
+                            <label for="user-room" class="form-label">Категорія номеру</label>
+                    </div>
+                
+                    <div class="select-date">
+                        <div class="modal-input">
+                            <select class="form-input second-select" id="date-from" name="date-from" >
+                                <option value="one">Сьогодні</option>
+                                <option value="two">Завтра</option>
+                                <option value="three">Післязавтра</option>
+                            </select>    
+                            <label for="date-from" class="form-label">Дата заїзду</label>
+                        </div>
+    
+                        <div class="modal-input">
+                            <select class="form-input third-select" id="date-to" name="date-to">
+                                <option value="one">Сьогодні</option>
+                                <option value="two">Завтра</option>
+                                <option value="three">Післязавтра</option>
+                            </select>                                
+                            <label for="date-to" class="form-label">Дата виїзду</label>
+                        </div>
+                    </div>
+                    <button class="book" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                </div>
+
+            
+            </form>
+        </div>
+    </div>
+</section>
