@@ -121,7 +121,7 @@ body {
         width: 414px;  
     }
 
-    .form-input {
+    .contact-form_inputs .form-input {
         width: 398px;       
     }
 
@@ -166,7 +166,7 @@ body {
         width: 304px;
     }
 
-    .form-input {
+    .contact-form_inputs .form-input {
         padding-top: 18px;
         padding-bottom: 18px;
         width: 304px;
