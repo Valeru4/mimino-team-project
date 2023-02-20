@@ -1,0 +1,285 @@
+td,tr,th{padding: 0;}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: var(--section--first-background-color);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: auto;
+}
+
+.menu-title {
+    text-align-last: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: calc(37/32);
+    margin-bottom: 32px;
+    font-family: 'Times New Roman' , sans-serif;
+}
+
+.table-title{
+    padding-top: 16px;
+    
+}
+
+.menu-table {
+    margin-right: 0;
+    width: 100%;
+}
+
+.table-first-title {
+    text-align: left;
+    font-family: 'Times New Roman' , sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(23/20);
+    padding-bottom: 16px;
+}
+
+.eat-type {
+    padding-bottom: 4px;
+}
+
+.pice{    font-family: 'Montserrat' , sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: calc(17/14);
+}
+.eat-mass {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(17/14);
+    text-align: left;
+    padding-left: 23px;
+}
+
+.eat-price {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(17/14);
+    text-align: left;
+    padding-left: 23px;
+}
+
+.ingradients{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+font-size: 10px;
+line-height: calc(12/10);
+padding-bottom: 8px;
+}
+
+.menu-btn{
+    display: block;
+    background-color:var(--base-black-color) ;
+border: 2px solid var(--section--first-background-color);
+border-radius: 25px;
+width: 236px;
+height: 48px;
+margin: 0 auto;
+margin-top: 32px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+}
+
+.btn-text{
+    color: var(--accent-yellow-color);
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+font-size: 16px;
+line-height: calc(20/16);
+}
+
+.menu .eat-last-name{
+    padding-bottom: 0;
+}
+
+.eat-mass-three{
+    padding-left: 15px;
+}
+
+.title-three{
+    padding-top: 10px;
+}
+
+.eat-one{
+    padding-bottom: 10px;
+}
+
+.menu-btn:hover,
+.menu-btn:focus{
+    background-color: var(--base-white-color);
+    border-color: var(--accent-yellow-color);
+}
+/* ---------------------------------------- */
+
+@media screen and (min-width:414px) {
+
+    .container{
+        width: 414px;
+    }
+
+    .ingradients{
+        width: 220px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+    .container{
+        width: 960px;
+    }
+
+    .br{
+        display: none;
+    }
+
+    .menu{
+        background-color: var(--section-second-background-color);
+        padding-top: 58px;
+        padding-bottom: 58px;
+        min-width: 950px;
+    }
+
+    .menu-table{
+        width: 421px;
+    }
+
+    .main-cont{
+        display: flex;
+        gap: 88px;
+    }
+
+    .two-cont{
+        width: auto;
+    }
+
+    .menu-title{
+        margin-bottom: 40px;
+    }
+
+    .table-title{
+        padding-top: 20px;
+    }
+
+    .table-first-title{
+        padding-bottom: 20px;
+    }
+
+    .eat-name{
+        padding-bottom: 11px;
+    }
+
+    .eat-mass{
+        padding-left: 38px;
+    }
+    
+    .eating{
+        width: 218px;
+    }
+
+    .eat-price{
+        padding-left: 38px;
+    }
+
+    .eat-type{
+        width: 220px;
+    }
+
+    .eat-mass-three{
+        padding-left: 38px;
+    }
+
+    .tablet-title{
+        padding-top: 0;
+    }
+
+    .menu-btn{
+        margin-top: 64px;
+        margin-right:0 ;
+    }
+
+    .eat-mass-two{
+        padding-bottom: 11px;
+    }
+    
+    .last-name{
+        padding-bottom: 11px;
+    }
+
+    .last-title{
+        padding-top: 9px;
+    }
+
+    .eat{
+        padding-bottom: 4px;
+    }
+}
+
+
+
+@media screen and (min-width:1280px) {
+    .container{
+        width: 1110px;
+    }
+
+    .pice{
+        font-weight: 500;
+font-size: 16px;
+line-height: calc(20/16);
+    }
+    
+    br{
+        display: none;
+    }
+
+    .main-cont{
+        gap: 140px;
+    }
+
+    .menu-table{
+        width: 470px;
+    }
+
+    .table-first-title{
+        font-weight: 700;
+font-size: 24px;
+line-height: calc(28/24);
+    }
+    
+    .eat-type{
+        font-size: 16px;
+line-height: calc(20/16);
+    }
+
+    .eat-price{
+        font-size: 16px;
+line-height: calc(20/16);
+    }
+
+    .ingradients{
+        width: 255px;
+    }
+
+    .sourse{
+        width: 282px;
+    }
+    .eat-vaga{
+        padding-left: 13px;
+    }
+
+    .eat-pri{
+        padding-left: 40px;
+    }
+    .menu-btn{
+        margin-top: 51px;
+    }
+}
