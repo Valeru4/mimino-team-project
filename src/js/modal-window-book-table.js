@@ -1,32 +1,25 @@
-const modalt = document.getElementById('simpleModalt');
-// All page modals
-var modalst = document.querySelectorAll('.modalt');
-// Get open modal button
-const modalBtnt = document.querySelectorAll('.modal-btnt');
-// Get close button
-const closeBtnt = document.getElementsByClassName('closeBtnt')[0];
+// Отримуємо всі кнопки, які відкривають модальне вікно
+const buttons = document.querySelectorAll('.modal-button-for-table');
 
-// Listen 	for OPEN Click
-modalBtnt.forEach(function(e) {
-e.addEventListener('click', openModal);
-})
-// Listen for CLOSE Click
-closeBtnt.addEventListener('click', closeModal);
-// Listen for OUTSIDE Click
-window.addEventListener('click', outsideClick);
+// Отримуємо модальне вікно за допомогою його id
+const modal = document.getElementById('modal-for-table');
 
-// Function to OPEN modal
-function openModal() {
-  modalt.style.display = "block";
-}
+// Отримуємо елемент close (хрестик) модального вікна
+const close = document.getElementsByClassName('close-for-table')[0];
 
-// Function to CLOSE modal
-function closeModal() {
-  modalt.style.display = "none";
-}
-// Function to CLOSE modal
-function outsideClick(e) {
-  if(e.target == modalt) {
-    modalt.style.display = "none";
+// Додаємо обробник подій до кожної кнопки, який відкриває модальне вікно
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    modal.style.display = 'block';
+  });
+});
+
+// Додаємо обробник подій до елементу close, який закриває модальне вікно
+close.addEventListener('click', function() {
+  modal.style.display = 'none';
+});
+window.addEventListener('click', function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
   }
-}
+});

@@ -1,32 +1,25 @@
-const modal = document.getElementById('simpleModal');
-// All page modals
-var modals = document.querySelectorAll('.modal');
-// Get open modal button
-const modalBtn = document.querySelectorAll('.modal-btn');
-// Get close button
-const closeBtn = document.getElementsByClassName('closeBtn')[0];
+// Отримуємо всі кнопки, які відкривають модальне вікно
+const buttons = document.querySelectorAll('.modal-button-for-price');
 
-// Listen 	for OPEN Click
-modalBtn.forEach(function(e) {
-e.addEventListener('click', openModal);
-})
-// Listen for CLOSE Click
-closeBtn.addEventListener('click', closeModal);
-// Listen for OUTSIDE Click
-window.addEventListener('click', outsideClick);
+// Отримуємо модальне вікно за допомогою його id
+const modal = document.getElementById('modal-for-price');
 
-// Function to OPEN modal
-function openModal() {
-  modal.style.display = "block";
-}
+// Отримуємо елемент close (хрестик) модального вікна
+const close = document.getElementsByClassName('close-for-price')[0];
 
-// Function to CLOSE modal
-function closeModal() {
-  modal.style.display = "none";
-}
-// Function to CLOSE modal
-function outsideClick(e) {
-  if(e.target == modal) {
-    modal.style.display = "none";
+// Додаємо обробник подій до кожної кнопки, який відкриває модальне вікно
+buttons.forEach(function(button) {
+  button.addEventListener('click', function() {
+    modal.style.display = 'block';
+  });
+});
+
+// Додаємо обробник подій до елементу close, який закриває модальне вікно
+close.addEventListener('click', function() {
+  modal.style.display = 'none';
+});
+window.addEventListener('click', function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
   }
-}
+});
