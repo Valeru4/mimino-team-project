@@ -20,9 +20,11 @@
 
 .body {
     font-family: 'Montserrat', sans-serif;
-  }
+}
 
-
+.container .hero {
+    position: relative;
+}
 
 header {
     position: absolute;
