@@ -23,10 +23,15 @@
   }
 
 header {
+    width: 100%;
+    min-width: 320px;
     position: absolute;
-    top: 25px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
+}
+
+.container header {
+    position: relative;
 }
 
 .list {
