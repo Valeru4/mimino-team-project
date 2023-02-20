@@ -2,8 +2,11 @@ body {
     font-family: 'Montserrat';
 }
 
-.modal {
+.modal-room {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 50%;
     left: 50%;
     width: 100%;
@@ -116,7 +119,7 @@ body {
 
 
 @media screen and (min-width: 414px) {
-    .modal {
+    .modal-room {
         width: 414px;  
     }
 
@@ -129,8 +132,10 @@ body {
 /*-----Tablet and Desktop---*/
 
 @media screen and (min-width: 1024px) {
-    .modal {
+    .modal-room {
         width: 712px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .contact-form_inputs {
