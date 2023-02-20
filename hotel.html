@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
 
-  <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-7a046fca.js"></script>
-  <link rel="stylesheet" href="/mimino-team-project/assets/hotel-d9dea862.css">
+  <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-d467f73d.js"></script>
+  <link rel="stylesheet" href="/mimino-team-project/assets/hotel-86219467.css">
 </head>
 <body>
     <header>
     <div class="container header-nav">
   <div class="navigation">
-    <a href="../index.html" class="logo">mimiho</a>
+    <a href="./index.html" class="logo">mimiho</a>
       <nav >                  
           <ul class="navigation-list list">
               <li class="navigation-list_item">
-                  <a href="../restraunt.html" class="navigation-list_title">Ресторан</a>
+                  <a href="./restraunt.html" class="navigation-list_title">Ресторан</a>
                   <a href="tel:0955559533" class="navigation-list_phone">
                           <svg class="navigation-list_svg">
                               <use href="/mimino-team-project/assets/icon-ba8ebc0f.svg#icon-Vector-5"></use>
@@ -33,7 +33,7 @@
                   </a>                
               </li>
               <li class="navigation-list_item">
-                  <a href="../hotel.html" class="navigation-list_title">Готель</a>
+                  <a href="./hotel.html" class="navigation-list_title">Готель</a>
                       <a href="tel:0668491089" class="navigation-list_phone">
                           <svg class="navigation-list_svg">
                               <use href="/mimino-team-project/assets/icon-ba8ebc0f.svg#icon-Vector-5"></use>
@@ -100,7 +100,7 @@
                 <div class="hero-btn-list">
                     <button class="hero-btn" type="button">Забронювати номер</button>
 
-                   <button class="hero-btn" type="button">Переглянути ціни</button>
+                   <button class="hero-btn modal-btn" id="modalBtn" type="button">Переглянути ціни</button>
                 </div>
             </div>
         </div>
@@ -183,7 +183,7 @@
             </div>
             <div class="buttons">
                 <a  href="./room.html" class="luxe-button">Детальніше</a>
-                <button type="button" class="luxe-button">Переглянути ціни</button>
+                <button type="button" class="luxe-button modal-btn" id="modalBtn">Переглянути ціни</button>
             </div>
         </div>
     </div>
@@ -245,7 +245,7 @@
             </div>
             <div class="buttons">
                 <a href="./room.html" class="room_3-button">Детальніше</a>
-                <button type="button" class="room_3-button">Переглянути ціни</button>
+                <button type="button" class="room_3-button modal-btn" id="modalBtn">Переглянути ціни</button>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@
     </div>
     </div>
     <a href="./room.html" class="roomfortwo-link">Детальніше</a>
-    <button type="button" class="roomfortwo-prices-btn">Переглянути ціни</button>
+    <button type="button" class="roomfortwo-prices-btn modal-btn" id="modalBtn">Переглянути ціни</button>
     <!-- Тут має бути слайдер -->
   </div>
 </section>
@@ -372,9 +372,9 @@
     
      <!--MODAL WINDOW - ROOM PRICE-->
 
- <div class="overlay is-hidden">
+ <div class="overlay modal" id="simpleModal">
       <div class="modal-price">
-        <button type="button" class="modal-price-close-btn">
+        <button type="button" class="modal-price-close-btn closeBtn">
           <svg class="price-close-icon" width="24" height="24">
             <use href="../img/sprite/icon.svg#icon-close"></use>
           </svg>
