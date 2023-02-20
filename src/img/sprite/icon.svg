@@ -77,6 +77,9 @@
     <symbol id="icon-arrow-right" viewBox="0 0 55 32">
       <path d="M39.44 0.702l-2.571 2.571 10.909 10.909h-47.414v3.636h47.414l-10.909 10.908 2.571 2.571 15.298-15.298-15.298-15.298z"></path>
     </symbol>
-    
+    <symbol id="icon-close" viewBox="0 0 32 32">
+<path fill="#000000" stroke="#000000" style="stroke: var(--color1, #000000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M27.428 3.429l-24 24"></path>
+<path fill="#000000" stroke="#000000" style="stroke: var(--color1, #000000)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M3.428 3.429l24 24"></path>
+</symbol>
   </defs>
 </svg>
