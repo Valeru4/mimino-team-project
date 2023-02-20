@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
 
-  <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-e32acf8f.js"></script>
-  <link rel="stylesheet" href="/mimino-team-project/assets/hotel-7c3a8637.css">
+  <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-00642733.js"></script>
+  <link rel="stylesheet" href="/mimino-team-project/assets/hotel-3752e360.css">
 </head>
 <body>
     <header>
@@ -98,7 +98,7 @@
             </div>
             <div>
                 <div class="hero-btn-list">
-                    <button class="hero-btn" type="button">Забронювати номер</button>
+                    <button class="hero-btn modal-button" type="button">Забронювати номер</button>
 
                    <button class="hero-btn modal-btn" id="modalBtn" type="button">Переглянути ціни</button>
                 </div>
@@ -370,14 +370,11 @@
     </footer>
 
     <section>
-    <div class="container">
-
-
+    <div class="backdrop" id="modal">
         <div class="modal-room">
-            <button type="button" class="modal-close_btn">
-                <svg class="modal-close">
-                    <use href="./images/symbol-defs.svg#icon-Vector-7"></use>
-                    <use href="./images/symbol-defs.svg#icon-Vector-6"></use>
+            <button type="button" class="modal-close_btn close">
+                <svg class="modal-close" width="18" height="18">
+                    <use href="../img/sprite/icon.svg#icon-close"></use>
                 </svg>
             </button>
 
@@ -436,7 +433,7 @@
                             <label for="date-to" class="form-label">Дата виїзду</label>
                         </div>
                     </div>
-                    <button class="book" type="button">ОФОРМИТИ БРОНЮВАННЯ</button>
+                    <button class="book" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
                 </div>
 
             

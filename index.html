@@ -13,8 +13,8 @@
       rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
-    <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-e32acf8f.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/index-b932ca48.css">
+    <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-00642733.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/index-955447bd.css">
   </head>
   <body>
     <header>
@@ -99,7 +99,7 @@
                 <div class="hero-btn-list">
                     <button class="hero-btn modal-btnt" type="button" id="modalBtnt">Забронювати столик</button>
 
-                    <button class="hero-btn" type="button">Забронювати номер</button>
+                    <button class="hero-btn modal-button" type="button">Забронювати номер</button>
                 </div>
             </div>
         </div>
@@ -481,7 +481,7 @@
    </div>
   <div class="details-buttons">
     <div class="details-button margin">
-      <button type="button" class="button">Забронювати номер</button>
+      <button type="button" class="button modal-button">Забронювати номер</button>
     </div>
     <div class="details-button">
       <a href="hotel.html" class="button">Переглянути ціни</a>
@@ -702,6 +702,78 @@
 </div>
   </div>
 </div>
+<section>
+    <div class="backdrop" id="modal">
+        <div class="modal-room">
+            <button type="button" class="modal-close_btn close">
+                <svg class="modal-close" width="18" height="18">
+                    <use href="../img/sprite/icon.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <form class="contact-form">
+                <p class="form-title">ЗАБРОНЮВАТИ НОМЕР</p>
+                    <div class="contact-form_inputs">
+                        <div class="modal-input">
+                            <input 
+                                class="form-input"
+                                type="text" 
+                                name="name" 
+                                id="user-name" 
+                                placeholder="Ваше ім’я"
+                            >
+                            <label for="user-name" class="form-label">
+                                На кого забронювати номер?
+                                </label>
+                        </div>
+
+                    <div class="modal-input">
+                            <input 
+                                class="form-input" 
+                                type="tel" 
+                                name="tel" 
+                                id="user-tel" 
+                                placeholder="+38(___) ___-__-__"
+                            >
+                            <label for="user-tel" class="form-label">Номер телефону</label>
+                    </div>
+
+                    <div class="modal-input">
+                            <select class="form-input first-select" id="user-room" name="user-room">
+                                <option value="one">Двомісний люкс</option>
+                                <option value="two">Трьохмісний номер</option>
+                                <option value="three">Двомісний номер</option>
+                            </select>
+                            <label for="user-room" class="form-label">Категорія номеру</label>
+                    </div>
+                
+                    <div class="select-date">
+                        <div class="modal-input">
+                            <select class="form-input second-select" id="date-from" name="date-from" >
+                                <option value="one">Сьогодні</option>
+                                <option value="two">Завтра</option>
+                                <option value="three">Післязавтра</option>
+                            </select>    
+                            <label for="date-from" class="form-label">Дата заїзду</label>
+                        </div>
+    
+                        <div class="modal-input">
+                            <select class="form-input third-select" id="date-to" name="date-to">
+                                <option value="one">Сьогодні</option>
+                                <option value="two">Завтра</option>
+                                <option value="three">Післязавтра</option>
+                            </select>                                
+                            <label for="date-to" class="form-label">Дата виїзду</label>
+                        </div>
+                    </div>
+                    <button class="book" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+                </div>
+
+            
+            </form>
+        </div>
+    </div>
+</section>
 
 
 
