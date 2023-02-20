@@ -80,13 +80,13 @@ padding-bottom: 8px;
 .menu-btn{
     display: block;
     background-color:var(--base-black-color) ;
-border: 2px solid var(--section--first-background-color);
-border-radius: 25px;
-width: 236px;
-height: 48px;
-margin: 0 auto;
-margin-top: 32px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    border: 2px solid var(--section--first-background-color);
+    border-radius: 25px;
+    width: 236px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .btn-text{
