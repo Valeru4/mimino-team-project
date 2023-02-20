@@ -66,7 +66,7 @@
 .hero-adress-link {
     color: var(--header-adress-text-color);
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     line-height: calc(15 / 12);
     letter-spacing: 0.01em;
@@ -76,7 +76,7 @@
 
 .hero-title {
     color: var(--base-white-color);
-    font-family: 'FilmP3Bold';
+    font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
@@ -90,10 +90,14 @@
     text-transform: uppercase;
 }
 
+.hero-title > span {
+    letter-spacing: 0;
+}
+
 .hero-h2-title {
     color: var(--base-white-color);
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: calc(24 / 20);
@@ -117,7 +121,7 @@
 
     color: var(--accent-yellow-color);
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
