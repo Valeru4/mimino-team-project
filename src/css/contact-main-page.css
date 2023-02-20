@@ -99,12 +99,22 @@
         border: 0.5px solid var(--accent-yellow-color);
         border-radius: 2px;
     }
+
     
     .icon-tel{
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 8px;
+        width: 24px;
+        height: 24px;
+        fill: var(--description-section-accent-color);
+    }
+
+    .icon-tel-hotel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 24px;
         height: 24px;
         fill: var(--description-section-accent-color);
@@ -125,7 +135,6 @@
         justify-content: center;
         align-items: flex-end;
         white-space: nowrap;
-        flex-direction: column;
         padding: 9px 8px 7px 8px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -136,6 +145,11 @@
         background: var(--base-white-color);
         border: 0.5px solid var(--accent-yellow-color);
         border-radius: 2px;
+    }
+
+    .hotel-number{
+        display: block;
+        padding-left: 8px;
     }
      .tel-one{
         display: flex;
@@ -189,6 +203,7 @@
         .contact-tel-hotel{
             width: 260px;
             height: 40px;
+            gap: 8px;
             flex-direction: row;
             align-items: center;
         }
@@ -196,6 +211,11 @@
         .conteiner-address{
             width: 260px;
             height: 76px;
+        }
+
+        .hotel-number{
+            display: flex;
+            padding-left: 0;
         }
 
         .tel-one{
