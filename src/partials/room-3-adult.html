@@ -19,7 +19,44 @@
                 <img src="./img/room-luxe/bedroom-mobile.jpg" alt="двомісний номер люкс" />
             </picture>
         </div>
-        <a href="../room.html" class="room_3-button">Детальніше</a>
-        <button type="button" class="room_3-button">Переглянути ціни</button>
+        <div class="room_3-wrap">
+            <div class="room_3-slider">
+                <div class="about-room_3-img-container">
+                    <picture class="about-room_3-img">
+                        <source
+                            srcset="./img/room-luxe/about-hotel-1-desktop.jpg 1x, ./img/room-luxe/about-hotel-1-desktop-2x.jpg 2x"
+                            media="(min-width: 1280px)" />
+                        <source
+                            srcset="./img/room-luxe/about-hotel-1-tablet.jpg 1x, ./img/room-luxe/about-hotel-1-tablet-2x.jpg 2x"
+                            media="(min-width: 1024px)" />
+                        <img src="./img/room-luxe/about-hotel-1-tablet.jpg" alt="Ванна кімната" />
+                    </picture>
+                    <picture class="about-room_3-img">
+                        <source
+                            srcset="./img/room-luxe/about-hotel-2-desktop.jpg 1x, ./img/room-luxe/about-hotel-2-desktop-2x.jpg 2x"
+                            media="(min-width: 1280px)" />
+                        <source
+                            srcset="./img/room-luxe/about-hotel-2-tablet.jpg 1x, ./img/room-luxe/about-hotel-2-tablet-2x.jpg 2x"
+                            media="(min-width: 1024px)" />
+                        <source 
+                            srcset="./img/room-luxe/about-hotel-2-mobile.jpg 1x, ./img/room-luxe/about-hotel-2-mobile-2x.jpg 2x"
+                            media="(max-width: 1023px)" />
+                        <img src="./img/room-luxe/about-hotel-2-mobile.jpg" alt="Ванна кімната" />
+                    </picture>
+                </div>
+                <div class="room_3-arrows">
+                    <svg class="icon" width="32" height="32">
+                        <use href="../img/sprite/icon.svg#icon-arrow-left"></use>
+                    </svg>
+                    <svg class="icon" width="32" height="32">
+                        <use href="../img/sprite/icon.svg#icon-arrow-right"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="./room.html" class="room_3-button">Детальніше</a>
+                <button type="button" class="room_3-button">Переглянути ціни</button>
+            </div>
+        </div>
     </div>
 </section>
