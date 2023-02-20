@@ -1,0 +1,209 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.modal-room {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--section--first-background-color);
+    border: 1px solid var(--description-section-accent-color);
+    transform: translate(-50%, -50%);
+}
+
+.modal-close {
+    width: 24px;
+    height: 24px;
+    fill: var(--base-black-color)
+}
+
+.modal-close_btn {
+    position: absolute;
+    right: 20px;
+    top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    fill: var(--base-black-color);
+    cursor: pointer;
+}
+
+.contact-form_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 0;
+    color: var(--base-black-color);
+    font-family: "Times New Roman";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+}
+
+.contact-form_inputs .form-input {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+    width: 100%;
+    border: 1px solid var(--description-section-accent-color);
+    border-radius: 2px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.16;
+    color: var(--input-placeholder-color);
+    background-color: var(--section--first-background-color);
+    letter-spacing: 0.05em;
+}
+
+.form-label {
+    color: var(--description-section-accent-color);
+    margin-left: 12px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+}
+
+.modal-input {
+    margin-bottom: 20px;
+}
+
+.modal-input:last-child {
+    margin-bottom: 40px;
+}
+
+.form-input .first-select,
+.second-select,
+.third-select {
+    width: 100%;
+}
+
+.book {
+    display: inline-block;
+    width: 100%;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--base-white-color);
+    background-color: var(--base-black-color);
+    border: 1px solid var(--accent-yellow-color);
+    border-radius: 2px;
+}
+
+.book:hover,
+.book:focus {
+    background-color: var(--accent-yellow-color);
+    color: var(--base-black-color);
+}
+
+
+@media screen and (min-width: 414px) {
+    .modal-room {
+        width: 414px;  
+    }
+
+    .contact-form_inputs .form-input {
+        width: 398px;       
+    }
+
+}
+
+/*-----Tablet and Desktop---*/
+
+@media screen and (min-width: 1024px) {
+    .modal-room {
+        width: 712px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contact-form_inputs {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .form-title {
+        margin-bottom: 36px;
+        font-size: 40px;
+        line-height: 1.15;
+    }
+
+    .modal-input {
+        display: flex;
+        flex-direction: column;
+        margin-right: 16px;
+    }
+
+    .modal-input:nth-child(2),
+    .modal-input:nth-child(5) {
+        margin-right: 0;
+    }
+
+    .modal-input:nth-child(3) {
+        margin-right: 0;
+        margin-left: 320px;
+        width: 304px;
+    }
+
+    .contact-form_inputs .form-input {
+        padding-top: 18px;
+        padding-bottom: 18px;
+        width: 304px;
+    }
+
+    .form-label {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .modal-input {
+        margin-bottom: 28px;
+    }
+
+    .modal-input:nth-last-child(-n + 2) {
+        margin-bottom: 40px;
+    }
+
+    .select-date {
+        display: flex;
+        width: 624px;
+        justify-content: center;
+        margin-right: 0;
+     }
+
+    .second-select {
+        margin-right: 0;
+    }
+
+    .first-select,
+    .second-select,
+    .third-select {
+        width: 304px;
+        padding-right: 40px;
+    }
+
+    .book {        
+        width: 624px;
+    }
+}
