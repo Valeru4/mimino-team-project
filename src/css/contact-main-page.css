@@ -87,6 +87,7 @@
         display: flex;
         align-items: center;
         padding: 9px 8px 7px 8px;
+        gap: 8px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -286,6 +287,16 @@
     .tel-one{
         padding-right: 16px;
         gap: 8px;
+    }
+
+.contact-tel-hotel {
+    width: 264px;
+    height: 40px;
+}
+
+    .contact-tel-hotel {
+        width: 264px;
+        height: 40px;
     }
 
     .container-address{
