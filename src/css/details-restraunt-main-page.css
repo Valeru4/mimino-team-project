@@ -67,9 +67,9 @@
 }
 .abrest-slider {
   margin-top: 32px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
   display: flex;
-  gap: 21px;
+  gap: 25px;
   justify-content: end;
 }
 
@@ -132,7 +132,7 @@
   .abrest-wrap-pic-first {
     position: absolute;
     top: -152px;
-    left: 465px;
+    left: 480px;
     width: 400px;
   }
   .abrest-wrap-second {
@@ -177,7 +177,7 @@
   }
   .abrest-wrap-pic-first {
     top: -153px;
-    left: 555px;
+    left: 570px;
   }
   .abrest-wrap-second {
     gap: 32px;

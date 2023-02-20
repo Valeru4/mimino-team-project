@@ -99,7 +99,7 @@
   margin-top: 32px;
   margin-bottom: 20px;
   display: flex;
-  gap: 21px;
+  gap: 16px;
   }
 .abrest-slider-img-first,
 .abrest-slider-img-second {
@@ -166,6 +166,9 @@
     width: 400px;
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: unset;
+  }
+  .abrest-slider {
+    gap: 40px;
   }
   .abrest-slider-btn {
     margin-bottom: 0;
