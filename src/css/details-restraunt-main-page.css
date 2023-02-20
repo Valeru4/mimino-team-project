@@ -64,10 +64,39 @@
 .abrest-wrap-text-second {
   color: var(--description-section-accent-color);
 }
+.abrest-slider {
+  margin-top: 32px;
+  margin-bottom: 19px;
+  display: flex;
+  gap: 21px;
+  justify-content: end;
+}
+
+.abrest-slider-img-first,
+.abrest-slider-img-second {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.abrest-slider-img-second {
+  margin-right: -15px;
+}
+.abrest-slider-btn {
+  display: flex;
+  gap: 34px;
+  justify-content: end;
+}
+
+.slider-btn {
+  padding: 0;
+  border: transparent;
+  background-color: inherit;
+}
+
 @media screen and (min-width: 1024px) {
   .abrest {
     padding-top: 0;
-    padding-bottom: 262px;
+    padding-bottom: 32px;
   }
   .abrest-pre-logo {
     margin-bottom: 4px;
@@ -122,11 +151,28 @@
   .abrest-wrap-text-second {
     max-width: 312px;
   }
+   .abrest-slider {
+    gap: 40px;
+    margin-top: -28px;
+  }
+
+  .abrest-slider-img-first,
+  .abrest-slider-img-second {
+    width: 194px;
+  }
+
+  .abrest-slider-img-second {
+    margin-right: 0;
+  }
+
+  .abrest-slider-btn {
+    margin-right: 13px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .abrest {
     padding-top: 0;
-    padding-bottom: 225px;
+    padding-bottom: 50px;
   }
   .abrest-wrap-first {
     margin-bottom: -108px;
@@ -149,5 +195,26 @@
   .abrest-wrap-pic-first,
   .abrest-wrap-pic-second {
     width: 460px;
+  }
+  .abrest-slider {
+    margin-top: -150px;
+  }
+
+  .abrest-slider-img-first,
+  .abrest-slider-img-second {
+    width: 254px;
+  }
+
+  .abrest-slider-btn {
+    margin-right: 0;
+  }
+
+  .slider-btn {
+    transition: fill var(--animation);
+  }
+
+  .slider-btn:hover,
+  .slider-btn:focus {
+    fill: var(--accent-yellow-color);
   }
 }

@@ -6,17 +6,8 @@
 */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./header.css');
-@import url('./hero-main-page.css');
-@import url('./restraunt-main-page.css');
+
 @import url('./details-restraunt-main-page.css');
-@import url('./hotel-main-page.css');
-@import url('./details-hotel-main-page.css');
-@import url('./contact-main-page.css');
-@import url('./footer.css');
-@import url('./room-3-adult.css');
-@import url('./modal-window-book-room.css');
-@import url('./modal-window-book-table.css');
 
 
 
