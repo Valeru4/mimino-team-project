@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     
   <script type="module" crossorigin src="/mimino-team-project/assets/modal-window-room-price-7a046fca.js"></script>
-  <link rel="stylesheet" href="/mimino-team-project/assets/room-1b6fbd71.css">
+  <link rel="stylesheet" href="/mimino-team-project/assets/room-cd8968f7.css">
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
     <div class="container">
         <div class="hero-adress-box-mobile">
             <svg width="20" height="20" class="hero-location-icon">
-                <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-location"></use>
+                <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-location"></use>
             </svg>
             <a href="https://goo.gl/maps/NbYGJYo3N7dLKXpx5" target="_blank" class="hero-adress-link">
                 Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
@@ -35,12 +35,12 @@
         <ul class="hero-arrow-list">
             <li class="hero-arrow-wrap">
                 <svg width="40" height="40" class="hero-arrow-icon">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-arrow-left"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-arrow-left"></use>
                 </svg>
             </li>
             <li class="hero-arrow-wrap">
                 <svg width="40" height="40" class="hero-arrow-icon">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-arrow-right"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-arrow-right"></use>
                 </svg>
             </li>
         </ul>
@@ -51,7 +51,7 @@
         <div class="hero-wrap">
             <div class="hero-adress-box">
                 <svg width="20" height="20" class="hero-location-icon">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-location"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-location"></use>
                 </svg>
                 <a href="https://goo.gl/maps/NbYGJYo3N7dLKXpx5" target="_blank" class="hero-adress-link">
                     Україна, м. Полтава, <br> вул. Маршала Бірюзова, 15
@@ -62,21 +62,21 @@
                 <li>
                     <a href="https://www.instagram.com/" target="_blank">
                         <svg width="22" height="22" class="hero-social-icon">
-                            <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-instagram"></use>
+                            <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/" target="_blank">
                         <svg width="20" height="20" class="hero-social-icon">
-                            <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-facebook"></use>
+                            <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li>
                     <a href="https://web.telegram.org/z/" target="_blank">
                         <svg width="20" height="20" class="hero-social-icon">
-                            <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-telegram"></use>
+                            <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-telegram"></use>
                         </svg>
                     </a>
                 </li>
@@ -214,7 +214,7 @@
                 target="_blank" href="https://web.telegram.org/z/">
                   <span class="footer__soc-icon-title">Telegram</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-telegram"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-telegram"></use>
                   </svg>
                 </a>
               </li>
@@ -224,7 +224,7 @@
                   target="_blank" href="https://www.facebook.com" >
                   <span class="footer__soc-icon-title">Facebook</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-facebook"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
@@ -234,7 +234,7 @@
                   target="_blank" href="https://www.instagram.com">
                   <span class="footer__soc-icon-title">Instagram</span>
                   <svg class="social-icon" width="24" height="24">
-                    <use href="/mimino-team-project/assets/icon-48c93f67.svg#icon-instagram"></use>
+                    <use href="/mimino-team-project/assets/icon-3dcf0f83.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li> 
@@ -247,7 +247,43 @@
     </footer>
 
     
-    
+     <!--MODAL WINDOW - ROOM PRICE-->
+
+ <div class="overlay">
+      <div class="modal-price">
+        <button type="button" class="modal-price-close-btn">
+          <svg class="price-close-icon" width="24" height="24">
+            <use href="../img/sprite/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-price-title">ЦІНИ НА НОМЕР</h2>
+        <p class="modal-price-type">Двомісний люкс</p>
+        <p class="modal-price-rank">Категорія номеру</p>
+        <form class="modal-price-form">
+          <div class="modal-select-wrap">
+            <select class="modal-price-input select" name="number" id="number">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <label for="number" class="modal-price-field">Кількість ночей</label>
+          </div>
+          <div class="modal-input-wrap">
+            <input
+              type="number"
+              name="price"
+              id="price"
+              placeholder="1000"
+              class="modal-price-input"
+            />
+            <label for="price" class="modal-price-field">грн</label>
+          </div>
+          <button type="submit" class="modal-price-book-btn">
+            ЗАБРОНЮВАТИ НОМЕР
+          </button>
+        </form>
+      </div>
+    </div>
 
 
     
