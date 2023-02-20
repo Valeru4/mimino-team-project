@@ -133,7 +133,7 @@
   right: 15px;
   z-index: 1;
   pointer-events: none;
-  background-image: url(../img/modal-window-room-price/icon-select.svg);
+  background-image: url(./img/modal-window-room-price/icon-select.svg);
   background-repeat: no-repeat;
 }
 
