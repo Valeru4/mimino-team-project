@@ -307,9 +307,7 @@
   .details-restaurant-img {
     width: 162px;
   }
-
 }
-
 
 
 @media screen and (min-width: 414px), (max-width: 414px) {
@@ -339,7 +337,6 @@
     }
   }
 }
-
 
 @media screen and (min-width: 1280px) {
   .details-restaurant {
