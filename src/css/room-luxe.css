@@ -189,6 +189,7 @@
     }
     .about-luxe-img-container {
         width: 428px;
+        margin-bottom: 32px;
     }
     .arrows{
         padding-left: 0;
@@ -232,5 +233,6 @@
     }
     .about-luxe-img-container {
         width: 548px;
+        margin-bottom: 40px;
     }
 }

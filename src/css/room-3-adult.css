@@ -209,6 +209,7 @@
     }
     .about-room_3-img-container {
             width: 428px;
+            margin-bottom: 32px;
     }
     .room_3-arrows {
         padding-right: 0;
@@ -259,5 +260,6 @@
     }
     .about-room_3-img-container {
         width: 548px;
+        margin-bottom: 40px;
     }
 }
