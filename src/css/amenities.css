@@ -122,7 +122,6 @@ align-items: center;
 
 .amenities-caption:hover{
     fill: var( --accent-yellow-color);
-    fill: var( --accent-yellow-color);
     color: var( --accent-yellow-color) ;
     
 }
@@ -182,7 +181,8 @@ margin-bottom: 32px;
     }
     .amenities-btn
     {
-        margin-left: 600px;
+        margin-left: 560px;
+        max-width: 434px;
     
     }
     }
