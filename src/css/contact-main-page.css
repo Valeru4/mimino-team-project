@@ -125,19 +125,18 @@
     fill: var(--description-section-accent-color);
 }
 
-.contact-tel-hotel {
+.contact-tel {
     display: flex;
-    justify-content: center;
     align-items: center;
-    white-space: nowrap;
-    flex-direction: column;
-    padding: 9px 8px 7px 8px;
-    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    padding: 9px 8px 7px;
+    gap: 8px;
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: .02em;
     background: var(--base-white-color);
     border: 0.5px solid var(--accent-yellow-color);
     border-radius: 2px;
@@ -148,13 +147,14 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    gap: 8px;
     padding-right: 12px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
 }
 
 .conteiner-address {
@@ -230,6 +230,10 @@
         padding-top: 56px;
         padding-bottom: 44px;
     }
+
+    .contact-tel-hotel {
+        width: 264px;
+        height: 40px;
 
     .contact-main-page {
         display: flex;
