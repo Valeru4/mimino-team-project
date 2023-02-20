@@ -94,6 +94,34 @@
   background-color: var(--accent-yellow-color);
   color: var(--base-black-color);
 }
+.abrest-slider {
+  margin-top: 32px;
+  margin-bottom: 19px;
+  display: flex;
+  gap: 21px;
+  
+  
+}
+
+.abrest-slider-img-first,
+.abrest-slider-img-second {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.abrest-slider-img-second {
+  margin-right: -15px;
+}
+.abrest-slider-btn {
+  display: flex;
+  gap: 34px;
+  }
+
+.slider-btn {
+  padding: 0;
+  border: transparent;
+  background-color: inherit;
+}
 
 
 @media screen and (min-width: 1024px) {

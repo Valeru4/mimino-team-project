@@ -6,7 +6,12 @@
 */
 @import url('./reset.css');
 @import url('./base.css');
-
+@import url('./hero-main-page.css');
+@import url('./details-restraunt-main-page.css');
+@import url('./restraunt-main-page.css');
+@import url('./hotel-main-page.css');
+@import url('./details-hotel-main-page.css');
+@import url('./contact-main-page.css');
 @import url('./details-restraunt-main-page.css');
 
 

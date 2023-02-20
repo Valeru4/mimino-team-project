@@ -36,6 +36,7 @@
   letter-spacing: 0.02em;
 }
 .abrest-wrap-text-first {
+  width: 258px;
   margin-bottom: 28px;
 
   color: var(--description-section-color);
@@ -118,7 +119,7 @@
   }
 
   .abrest-wrap-first {
-    margin-bottom: -46px;
+    margin-bottom: -51px;
 
     display: flex;
     gap: 26px;
@@ -126,7 +127,7 @@
   }
   .abrest-wrap-text-first {
     margin-bottom: 0;
-    max-width: 439px;
+    width: 439px;
   }
   .abrest-wrap-pic-first,
   .abrest-wrap-pic-second {
@@ -154,7 +155,8 @@
    .abrest-slider {
     gap: 40px;
     margin-top: -28px;
-  }
+    margin-bottom: 32px;
+      }
 
   .abrest-slider-img-first,
   .abrest-slider-img-second {
@@ -175,7 +177,7 @@
     padding-bottom: 50px;
   }
   .abrest-wrap-first {
-    margin-bottom: -108px;
+    margin-bottom: -65px;
 
     gap: 37px;
   }
@@ -197,7 +199,8 @@
     width: 460px;
   }
   .abrest-slider {
-    margin-top: -150px;
+    margin-top: -133px;
+    margin-bottom: 36px;
   }
 
   .abrest-slider-img-first,
