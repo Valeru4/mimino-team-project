@@ -89,6 +89,12 @@ body {
     margin-bottom: 40px;
 }
 
+.form-input .first-select,
+.second-select,
+.third-select {
+    width: 100%;
+}
+
 .book {
     display: inline-block;
     width: 100%;
@@ -160,7 +166,7 @@ body {
     .form-input {
         padding-top: 18px;
         padding-bottom: 18px;
-        width: 288px;
+        width: 304px;
     }
 
     .form-label {
@@ -176,7 +182,25 @@ body {
         margin-bottom: 40px;
     }
 
+    .select-date {
+        display: flex;
+        width: 624px;
+        justify-content: center;
+        margin-right: 0;
+     }
+
+    .second-select {
+        margin-right: 0;
+    }
+
+    .first-select,
+    .second-select,
+    .third-select {
+        width: 304px;
+        padding-right: 40px;
+    }
+
     .book {        
-        width: 592px;
+        width: 624px;
     }
 }
