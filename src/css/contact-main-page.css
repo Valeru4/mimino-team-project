@@ -1,0 +1,373 @@
+@font-face {
+    font-family: FilmP3Bold;
+    src: url('./fonts/FilmP3Bold.ttf');
+}
+
+.contact-section {
+    background-color: var(--section--first-background-color);
+}
+
+.contact-section {
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 0;
+    /* padding-top: 36px; */
+
+}
+
+.contact-logo {
+    /* width: 127px;
+    height: 43px; */
+    margin-bottom: 12px;
+    font-family: 'FilmP3Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.07;
+    letter-spacing: 0.3em;
+    color: var(--logo-section-color);
+}
+
+.contact-title {
+    margin-bottom: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--description-section-color);
+}
+
+.contact-item {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.contact-item:last-child {
+    display: flex;
+    margin-bottom: 32px;
+    gap: 10px;
+}
+
+.tablet {
+    display: flex;
+}
+
+.rest-contact {
+    margin-right: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--description-section-accent-color);
+}
+
+.hotel-cont {
+    margin-right: 54px;
+    /* width: 100%; */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--description-section-accent-color);
+
+}
+
+.contact-tel {
+    display: flex;
+    align-items: center;
+    padding: 9px 8px 7px 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    background: var(--base-white-color);
+    border: 0.5px solid var(--accent-yellow-color);
+    border-radius: 2px;
+}
+
+.icon-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 24px;
+    height: 24px;
+    fill: var(--description-section-accent-color);
+}
+
+.icon-point {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 24px;
+    height: 24px;
+    fill: var(--description-section-accent-color);
+}
+
+.contact-tel {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 9px 8px 7px;
+    gap: 8px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: .02em;
+    background: var(--base-white-color);
+    border: 0.5px solid var(--accent-yellow-color);
+    border-radius: 2px;
+}
+
+.tel-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+    padding-right: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.conteiner-address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 260px;
+        height: 76px; */
+    margin-left: 124px;
+    padding: 9px 8px 7px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    background: var(--base-white-color);
+    border: 0.5px solid var(--accent-yellow-color);
+    border-radius: 2px;
+}
+
+.break-word {
+    overflow-wrap: break-word;
+    /* padding-right: 33px; */
+}
+
+.map-container {
+    width: 100%;
+    /* width: 384px;
+     height: 220px; */
+    background: url(.png);
+    border: 1px solid var(--subtitle-section-text-color);
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
+/* ----------------MOBILE------------ */
+
+
+@media screen and (min-width: 414px) {
+
+
+    .contact-tel-hotel {
+        width: 260px;
+        height: 40px;
+        flex-direction: row;
+    }
+
+    .conteiner-address {
+        width: 260px;
+        height: 76px;
+    }
+
+    .break-word {
+        padding-right: 33px;
+    }
+
+    .map-container {
+        width: 384px;
+        height: 220px;
+    }
+
+}
+
+
+
+/* ------------------TABLET------------------ */
+
+@media screen and (min-width: 1024px) {
+
+    .contact-section {
+        padding-top: 56px;
+        padding-bottom: 44px;
+    }
+
+    .contact-tel-hotel {
+        width: 264px;
+        height: 40px;
+    }
+    .contact-main-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .contact-logo {
+        width: 202px;
+        height: 69px;
+        font-size: 64px;
+        line-height: 1.07;
+        margin-bottom: 8px;
+        padding-top: 0;
+    }
+
+    .contact-title {
+        margin-bottom: 52px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .contact-list {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .tablet {
+        display: block;
+    }
+
+    .rest-contact {
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    .hotel-cont {
+        display: flex;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .contact-item:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    .contact-item:nth-child(2) {
+        margin-bottom: 48px;
+    }
+
+    .contact-item:last-child {
+        margin-left: 0;
+        margin-bottom: 0;
+        width: 285px;
+        height: 56px;
+    }
+
+    .tel-one {
+        padding-right: 16px;
+    }
+
+    .container-address {
+        display: flex;
+    }
+
+    .break-word {
+        padding: 0;
+    }
+
+    .map-container {
+        width: 535px;
+        height: 412px;
+        background: url(.png);
+        border: 1px solid var(--description-section-text-color);
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+
+    .map {
+        margin-top: 13px;
+        margin-bottom: 4px;
+        /* padding-top: 69px;
+        padding-bottom: 40px; */
+    }
+}
+
+
+
+/*------------------DESCTOP----------------*/
+@media screen and (min-width: 1280px) {
+
+    .contact-section {
+        padding-top: 56px;
+        padding-bottom: 44px;
+    }
+
+    .contact-main-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
+    .contact-title {
+        margin-bottom: 40px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .map {
+        margin-top: 8px;
+        margin-bottom: 1px;
+        /* padding-top: 64px;
+        padding-bottom: 74px; */
+    }
+
+    .map-container {
+        width: 634px;
+        height: 412px;
+        background: url(.png);
+        border: 1px solid var(--description-section-text-color);
+        box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+
+}
