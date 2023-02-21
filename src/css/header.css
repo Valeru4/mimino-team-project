@@ -27,15 +27,10 @@
 }
 
 header {
-    width: 100%;
-    min-width: 320px;
     position: absolute;
+    top: 25px;
     left: 50%;
-    transform: translate(-50%);
-}
-
-.container header {
-    position: relative;
+    transform: translate(-50%, -50%);
 }
 
 .list {
@@ -59,6 +54,7 @@ ul a {
 .navigation-list_span {
     display: none;
 }
+
 
 .media {
     display: none;
