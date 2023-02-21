@@ -171,7 +171,7 @@
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--base-white-color);
-    border: 2px solid var(--accent-yellow-color);
+    border-color: var(--accent-yellow-color);
 }
 
 
