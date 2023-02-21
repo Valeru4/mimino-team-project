@@ -70,6 +70,7 @@ ul a {
     font-size: 36px;
     line-height: 1.08;
     letter-spacing: 0.3em;
+    
 }
 
 .navigation-list {
@@ -81,6 +82,11 @@ ul a {
 .navigation-list_item {
     display: flex;
     justify-content: center;
+    transform: scale(1.2);
+}
+
+.navigation-list_item {
+    transition: scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .navigation-list_item:first-child {
@@ -118,10 +124,7 @@ ul a {
         width: 1280px;
     }   */
 
-    header {
-        padding-top: 30px;
-    }   
-
+   
     .navigation-list {
         padding-top: 30px;
         padding-bottom: 30px;
