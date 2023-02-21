@@ -217,11 +217,11 @@ line-height: 1.25;
 
 .scrol-img{
     max-width: 194px;
-    
+    margin-left: 85px;
 }
 .scrol-images{
     max-width: 194px;
-    
+    margin-right: -570px;
 }
    
 
