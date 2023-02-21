@@ -82,12 +82,13 @@ ul a {
 .navigation-list_item {
     display: flex;
     justify-content: center;
-    transform: scale(1.2);
+    scale: 1;
 }
 
-.navigation-list_item {
-    transition: scale 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+.navigation-list_item:hover {
+    transition: scale(1.2) 250ms;
 }
+
 
 .navigation-list_item:first-child {
     margin-right: 26px;
