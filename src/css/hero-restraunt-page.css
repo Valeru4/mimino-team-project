@@ -152,14 +152,11 @@
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: var(--base-white-color);
-    border: 2px solid var(--accent-yellow-color);
-}
+    border-color: var(--accent-yellow-color);}
 
 .hero-social-list {
     display: flex;
     gap: 23px;
-    justify-content: start;
-    margin-right: auto;
 }
 
 .hero-social-icon {
