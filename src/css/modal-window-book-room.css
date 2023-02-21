@@ -41,7 +41,7 @@ body {
 .modal-close {
     width: 24px;
     height: 24px;
-    fill: var(--base-black-color)
+    fill: var(--base-black-color);
 }
 
 .modal-close_btn {
