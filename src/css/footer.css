@@ -42,18 +42,35 @@ img {
 
 footer {
     margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: "Montserrat", sans-serif;
     color: var(--accent-yellow-color);
     background-color: var(--background-footer-color);
 }
 
+@media screen and (min-width: 1024px) {
+    footer {
+        padding-top: 80px;
+        padding-bottom: 83px; 
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    footer {
+        padding-bottom: 80px; 
+    }
+}
+
 .footer__blocks  {
-    padding: 40px 30px 40px 59px;
+    padding-right: 30px;
+    padding-left:  59px;
 }
 
 @media screen and (min-width: 1024px) {
     .footer__blocks {
-      padding: 80px 75px 83px 107px;
+      padding-right: 75px;
+      padding-left:  107px;
       max-width: 960px;
     }
 
@@ -69,9 +86,11 @@ footer {
 
 @media screen and (min-width: 1280px) {
     .footer__blocks {
-        padding: 80px 101px 80px 131px;
+        padding-right: 101px;
+        padding-left:  131px;
         max-width: 1140px;
     }
+    
     .footer__logo {
     margin-right: 231px;
     }         
