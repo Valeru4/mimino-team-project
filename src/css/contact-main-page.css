@@ -15,15 +15,11 @@
 .contact-info {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     padding: 0;
-    /* padding-top: 36px; */
 
 }
 
 .contact-logo {
-    /* width: 127px;
-    height: 43px; */
     margin-bottom: 12px;
     font-family: 'FilmP3Bold', sans-serif;
     font-style: normal;
@@ -79,7 +75,6 @@
 
 .hotel-cont {
     margin-right: 54px;
-    /* width: 100%; */
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -94,6 +89,8 @@
     display: flex;
     align-items: center;
     padding: 9px 8px 7px 8px;
+    height: 40px;
+    gap: 8px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -105,11 +102,21 @@
     border-radius: 2px;
 }
 
+
 .icon-tel {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    width: 24px;
+    height: 24px;
+    fill: var(--description-section-accent-color);
+}
+
+.icon-tel-hotel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 24px;
     height: 24px;
     fill: var(--description-section-accent-color);
@@ -128,9 +135,8 @@
 .contact-tel-hotel {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     white-space: nowrap;
-    flex-direction: column;
     padding: 9px 8px 7px 8px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -143,26 +149,29 @@
     border-radius: 2px;
 }
 
+.hotel-number {
+    display: block;
+    padding-left: 8px;
+}
+
 .tel-one {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding-right: 12px;
-    font-family: Montserrat, sans-serif;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    letter-spacing: .02em;
+    letter-spacing: 0.02em;
 }
 
 .conteiner-address {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* width: 260px;
-        height: 76px; */
     margin-left: 124px;
     padding: 9px 8px 7px 10px;
     font-family: 'Montserrat', sans-serif;
@@ -178,13 +187,10 @@
 
 .break-word {
     overflow-wrap: break-word;
-    /* padding-right: 33px; */
 }
 
 .map-container {
     width: 100%;
-    /* width: 384px;
-     height: 220px; */
     background: url(.png);
     border: 1px solid var(--subtitle-section-text-color);
     box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
@@ -201,12 +207,23 @@
     .contact-tel-hotel {
         width: 260px;
         height: 40px;
+        gap: 8px;
         flex-direction: row;
+        align-items: center;
     }
 
     .conteiner-address {
         width: 260px;
         height: 76px;
+    }
+
+    .hotel-number {
+        display: flex;
+        padding-left: 0;
+    }
+
+    .tel-one {
+        padding-right: 12px;
     }
 
     .break-word {
@@ -219,7 +236,6 @@
     }
 
 }
-
 
 
 /* ------------------TABLET------------------ */
@@ -299,6 +315,17 @@
 
     .tel-one {
         padding-right: 16px;
+        gap: 8px;
+    }
+
+    .contact-tel-hotel {
+        width: 264px;
+        height: 40px;
+    }
+
+    .contact-tel-hotel {
+        width: 264px;
+        height: 40px;
     }
 
     .container-address {
@@ -321,8 +348,6 @@
     .map {
         margin-top: 13px;
         margin-bottom: 4px;
-        /* padding-top: 69px;
-        padding-bottom: 40px; */
     }
 }
 

@@ -49,12 +49,13 @@
 .roomfortwo-pic-wrap {
   width: 244px;
   margin-left: auto;
-  margin-bottom: 298px;
+  margin-bottom: 32px;
 
   box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   overflow: hidden;
 }
+
 .roomfortwo-link,
 .roomfortwo-prices-btn {
   display: block;
@@ -94,13 +95,44 @@
   background-color: var(--accent-yellow-color);
   color: var(--base-black-color);
 }
+.abrest-slider {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 16px;
+  }
+.abrest-slider-img-first,
+.abrest-slider-img-second {
+  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.abrest-slider-img-first {
+  margin-left: -15px;
+}
+.abrest-slider-btn {
+  display: flex;
+  gap: 34px;
+  margin-bottom: 20px;
+  }
+
+.slider-btn {
+  display: block;
+  line-height: 0.7;
+  padding: 0;
+  border: transparent;
+  background-color: inherit;
+}
 
 
 @media screen and (min-width: 1024px) {
   .roomfortwo {
-    padding-top: 0;
+    padding-top: 64px;
     padding-bottom: 145px;
   }
+  .container {
+    position: relative;
+  }
+
   .roomfortwo-pre-logo {
     margin-bottom: 4px;
 
@@ -123,37 +155,38 @@
   }
   .roomfortwo-wrap-text {
     max-width: 439px;
-    margin-bottom: 0;
+    margin-bottom: 174px;
     font-size: 16px;
   }
-
-  .roomfortwo-wrap {
-    display: flex;
-    gap: 26px;
-    align-items: center;
-
-    margin-bottom: 57px;
-  }
   .roomfortwo-pic-wrap {
-    position: relative;
-    transform: translateY(-32px);
+    position: absolute;
+    top: -96px;
+    left: 480px;
 
     width: 400px;
-    margin-left: 0;
-    margin-bottom: 0;
-    flex-shrink: 0;
-
     box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
     border-radius: unset;
+  }
+  .abrest-slider {
+    gap: 40px;
+  }
+  .abrest-slider-btn {
+    margin-bottom: 0;
+  }
+  .link-btn-wrap {
+    margin-top: -205px;
   }
   .roomfortwo-link,
   .roomfortwo-prices-btn {
     margin-right: 0;
   }
+  .abrest-slider-img-first {
+  margin-left: 0;
+}
 }
 @media screen and (min-width: 1280px) {
   .roomfortwo {
-    padding-top: 0;
+    padding-top: 72px;
     padding-bottom: 182px;
   }
   .roomfortwo-logo {
@@ -165,16 +198,24 @@
     font-size: 36px;
     line-height: 1.14;
   }
-  .roomfortwo-wrap {
-    gap: 48px;
-    margin-bottom: 88px;
-  }
-  .abrest-wrap-text {
+    .roomfortwo-wrap-text {
     max-width: 400px;
+    margin-bottom: 188px;
   }
   .roomfortwo-pic-wrap {
-    transform: translateY(-33px);
+    top: -105px;
+    left: 570px;
+
     width: 460px;
     border-radius: 2px;
+  }
+  .abrest-slider {
+    gap: 40px;
+  }
+  .abrest-slider-btn {
+    margin-left: 415px;
+  }
+  .link-btn-wrap {
+    margin-top: -231px;
   }
 }
