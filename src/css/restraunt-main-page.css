@@ -23,7 +23,7 @@
 
 .details-restaurant__btns > div {
   position: absolute;
-  bottom: -32px;
+  bottom: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -134,7 +134,7 @@
 
 @media screen and (min-width: 414px) {
   section.details-restaurant {
-    padding: 24px 0 70px 0;
+    padding: 24px 0 40px 0;
   }
   .details-restaurant-slider > img:nth-last-child(1) {
     display: none;
@@ -196,6 +196,7 @@
 
   .details-restaurant-container {
     flex-direction: column-reverse;
+    gap: 32px;
   }
 
   .details-restaurant__btns {
@@ -332,7 +333,9 @@
   .details-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/restraunt-main-page/background-details-restaurant-tablet-1x.jpg);
   }
-
+  .details-restaurant-container {
+    gap: 4px;
+  }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
