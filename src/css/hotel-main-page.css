@@ -30,9 +30,9 @@ grid-area: aboutourhotel-img;
 
 .text-aboutourhotel{
     grid-area: text-aboutourhotel;
-    padding-right: 0;
-    padding-bottom: 28px;
-    padding-left: 143px;
+    margin-right: 0;
+    margin-bottom: 28px;
+    margin-left: 143px;
     
 }
 
@@ -129,9 +129,7 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
 }
 
-.aboutourhotel-icon{
-    margin-right: 32px;
-}
+
 
 .aboutourhotel-button{
     background: none;
@@ -143,6 +141,7 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 
 .aboutourhotel-vector{
     display: flex;
+    gap: 32px;
     }
     @media screen and (min-width: 1024px) 
 {
@@ -166,8 +165,8 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     {
        
         
-        padding-bottom: 142px;
-        padding-left: 46px;
+        margin-bottom: 142px;
+        margin-left: 46px;
     }
     .aboutourhotel-title
 {
@@ -192,8 +191,8 @@ line-height: 1.25;
 .aboutourhotel-text
 {
     margin: 0;
-padding-left: 220px;
-padding-top: 172px;
+margin-left: 220px;
+margin-top: 172px;
 margin-right: -45px;
     
     font-size: 16px;
@@ -218,9 +217,11 @@ line-height: 1.25;
 
 .scrol-img{
     max-width: 194px;
+    margin-left: 85px;
 }
 .scrol-images{
     max-width: 194px;
+    margin-right: -570px;
 }
    
 
@@ -238,13 +239,13 @@ line-height: 1.25;
     .text-aboutourhotel{
     
         
-        padding-bottom: 208px;
-        padding-left: 67px;
+        margin-bottom: 208px;
+        margin-left: 67px;
     }
     .aboutourhotel-text{
     
-        padding-left: 294px;
-        padding-top: 123px;
+       margin-left: 294px;
+        margin-top: 123px;
         margin-right: -50px;
      
     }
