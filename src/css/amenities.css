@@ -85,7 +85,8 @@ color:var(--base-white-color);
 white-space:nowrap;
 margin-bottom: 20px;
 width: 100%;
-
+transition: background var(--animation),
+border var(--animation), color var(--animation);
 }
 .amenities-button:hover{
 background:var(--accent-yellow-color);
@@ -109,8 +110,8 @@ align-items: center;
   cursor: pointer;
   background-color: transparent;
     border: none;
-  background-color: transparent;
-    border: none;
+    transition: fill var(--animation),
+    color var(--animation);
   
 }
 
