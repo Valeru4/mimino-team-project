@@ -55,6 +55,7 @@ ul a {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
 }
 
@@ -62,11 +63,15 @@ ul a {
     display: none;
 }
 
-.header-nav {
+.container .header-nav {
+    width: 10%; 
+}
+
+/*.header-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 .media {
     display: none;
@@ -74,19 +79,18 @@ ul a {
 
 .logo {
     text-decoration: none;
-    padding-top: 16px;
     margin-right: auto;
     color: var(--base-white-color);
     font-family: 'FilmP3Bold';
     font-style: normal;
-    font-size: 36px;
+    font-size: 9vw;
     line-height: 1.08;
     letter-spacing: 0.3em;
 }
 
 .navigation-list {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding-top: 28px;
     /**/
     gap: 20px;
@@ -130,6 +134,7 @@ ul a {
 @media screen and (min-width: 414px) {
     .logo {
         margin-right: 52px;
+        font-size: 36px;
     }
 }
 
