@@ -42,7 +42,7 @@
 }
 
 .details-restaurant__btn-reserve-table {
-  padding: 14px 23px;
+  padding: 14px 22px;
   margin-bottom: 16px ;
 }
 
@@ -154,7 +154,7 @@
   .details-restaurant__btns > div {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
-    bottom: 55px;
+    bottom: 62px;
     display: flex;
     flex-direction: column;
     align-items: center;
