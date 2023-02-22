@@ -117,6 +117,7 @@ margin-right: 21px;
     background: var(--background-images);
 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 border-radius: 2px;
+margin-left: 85px;
 
 
 }
@@ -125,7 +126,7 @@ border-radius: 2px;
 .scrol-images{
     display: flex;
 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
-
+margin-left: -570px;
 
 }
 
@@ -143,6 +144,24 @@ box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
     display: flex;
     gap: 32px;
     }
+
+@media (min-width: 320px) and (max-width: 413px) {
+.aboutourhotel-text
+{
+    
+margin-top: 63px;
+ 
+}
+.scrol-img{
+    max-width: 194px;
+  
+}
+.scrol-images{
+    max-width: 194px;
+   margin-left: -450px;
+}
+}
+
     @media screen and (min-width: 1024px) 
 {
     .section-aboutourhotel{
@@ -217,11 +236,11 @@ line-height: 1.25;
 
 .scrol-img{
     max-width: 194px;
-   margin-left: 85px;
+   margin-left: 0;
 }
 .scrol-images{
     max-width: 194px;
-    margin-left: -570px;
+    margin-left: 0;
 }
 }
 @media screen and (min-width: 1280px)
