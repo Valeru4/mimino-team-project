@@ -1,0 +1,74 @@
+<div class="backdrop modalt" id="modal-for-table">
+  <div class="modal">
+    <div class="modal-container">
+<button type="button" class="cross close-for-table">
+<svg class="cross-button" width="18" height="18">
+  <use href="./img/sprite/icon.svg#icon-close"></use>
+</svg>
+</button>
+<h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+<form name="contact-form" autocomplete="on">
+<div class="modal-box">
+  <div class="modal-list">
+    <div class="form-field">
+      <input class="form-field-input" 
+      id="name" 
+      type="text" 
+      name="name"
+      pattern="[A-Za-zА-Яа-яЁё]"
+      placeholder="Ваше ім’я">
+      </div>
+    <label class="form-field-label" for="name">На кого забронювати столик?</label>
+     
+  </div>
+  <div class="modal-list">
+    <div class="form-field">
+      <select class="form-field-input"
+       name="quantity" 
+       id="quantity"
+      required>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+    </select>
+      
+      
+    </div>
+    <label class="form-field-label" for="quantity">Столик на яку кількість осіб?</label>
+  </div>
+  
+  <div class="modal-list">
+    <div class="form-field">
+      <input class="form-field-input" 
+      id="tel" 
+      type="tel" 
+      name="tel"
+      placeholder="+38 (___) ___-__-__">
+  </div>
+  <label class="form-field-label" for="tel">Номер телефону</label>
+  
+  </div>
+    <div>
+      <div class="form-field">
+      
+          <select class="form-field-input" name="date" id="date"
+          required>
+          <option value="Сьогодні">Сьогодні</option>
+          
+        </select>
+          
+       
+    </div>
+    <label class="form-field-label" for="date">На яку дату бронювати?</label>
+    </div>
+   
+</div>
+
+<button type="submit" class="button-modal">ОФОРМИТИ БРОНЮВАННЯ</button>
+</form>
+</div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+
+<div class="overlay modal" id="modal-for-price">
+      <div class="modal-price">
+        <button type="button" class="modal-price-close-btn close-for-price">
+          <svg class="price-close-icon" width="24" height="24">
+            <use href="./img/sprite/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-price-title">ЦІНИ НА НОМЕР</h2>
+        <p class="modal-price-type">Двомісний люкс</p>
+        <p class="modal-price-rank">Категорія номеру</p>
+        <form class="modal-price-form">
+          <div class="modal-select-wrap">
+            <select class="modal-price-input select" name="number" id="number">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <label for="number" class="modal-price-field">Кількість ночей</label>
+          </div>
+          <div class="modal-input-wrap">
+            <input
+              type="number"
+              name="price"
+              id="price"
+              placeholder="1000"
+              class="modal-price-input"
+            />
+            <label for="price" class="modal-price-field">грн</label>
+          </div>
+          <button type="submit" class="modal-price-book-btn">
+            ЗАБРОНЮВАТИ НОМЕР
+          </button>
+        </form>
+      </div>
+    </div>
