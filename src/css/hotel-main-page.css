@@ -217,15 +217,12 @@ line-height: 1.25;
 
 .scrol-img{
     max-width: 194px;
-    
+   margin-left: 85px;
 }
 .scrol-images{
     max-width: 194px;
-    
+    margin-left: -570px;
 }
-   
-
-    
 }
 @media screen and (min-width: 1280px)
 {
