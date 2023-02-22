@@ -17,6 +17,8 @@
 
 }*/
 
+/*header nav and flexes*/
+
 
 .body {
     font-family: 'Montserrat', sans-serif;
@@ -53,6 +55,7 @@ ul a {
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: transparent;
 }
 
@@ -60,26 +63,39 @@ ul a {
     display: none;
 }
 
+.container .header-nav {
+    width: 10%; 
+}
+
+/*.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
 .media {
     display: none;
 }
 
 .logo {
     text-decoration: none;
-    padding-top: 16px;
     margin-right: auto;
     color: var(--base-white-color);
     font-family: 'FilmP3Bold';
     font-style: normal;
-    font-size: 36px;
+    font-size: 9vw;
     line-height: 1.08;
     letter-spacing: 0.3em;
 }
 
 .navigation-list {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding-top: 28px;
+    /**/
+    gap: 20px;
+    margin-left: auto;
+
 }
 
 .navigation-list_item {
@@ -87,9 +103,9 @@ ul a {
     justify-content: center;
 }
 
-.navigation-list_item:first-child {
+/*.navigation-list_item:first-child {
     margin-right: 26px;
-}
+}*/
 
 .navigation-list_title {
     color: var(--accent-yellow-color);
@@ -115,6 +131,16 @@ ul a {
     margin-right: 12px;
 }
 
+.navigation-list_title:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 414px) {
+    .logo {
+        margin-right: 52px;
+        font-size: 36px;
+    }
+}
 
 
 @media screen and (min-width: 1024px){
@@ -122,10 +148,7 @@ ul a {
         width: 1280px;
     }   */
 
-    header {
-        padding-top: 30px;
-    }   
-
+   
     .navigation-list {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -214,6 +237,10 @@ ul a {
         margin-right: 0;
     }
 
+    .navigation-list {
+        gap: 0;
+    }
+
     .logo {
         margin-right: 125px;
     }
@@ -229,6 +256,11 @@ ul a {
         width: 24px;
         height: 24px;
         fill: var(--accent-yellow-color);
+    }
+
+    .media .media-logo:hover {
+        transform: scale(1.2);
+        fill: var(--section-second-background-color);
     }
 
     .media .media-item + .media-item {
