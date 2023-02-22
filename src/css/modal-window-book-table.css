@@ -132,7 +132,8 @@ color:var(--description-section-accent-color);
         text-align: center;
         padding: 20px 43px;
         width: 100%;
-
+        transition: background var(--animation),
+        color var(--animation);
 
     }
     

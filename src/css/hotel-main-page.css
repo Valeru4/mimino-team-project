@@ -135,6 +135,7 @@ margin-left: -570px;
 .aboutourhotel-button{
     background: none;
     border: none;
+    transition: fill var(--animation);
 }
 .aboutourhotel-button:hover {
     fill: var(--accent-yellow-color);
