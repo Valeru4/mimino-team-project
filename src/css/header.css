@@ -101,6 +101,12 @@ ul a {
 .navigation-list_item {
     display: flex;
     justify-content: center;
+    transform: scale(1);
+}
+
+.navigation-list_title:hover {
+    transform: scale(1.2);
+    transition: tranform 550ms cubic-bezier(.4, 0, .2, 1);
 }
 
 /*.navigation-list_item:first-child {
@@ -131,9 +137,6 @@ ul a {
     margin-right: 12px;
 }
 
-.navigation-list_title:hover {
-    transform: scale(1.2);
-}
 
 @media screen and (min-width: 414px) {
     .logo {
@@ -261,6 +264,7 @@ ul a {
     .media .media-logo:hover {
         transform: scale(1.2);
         fill: var(--section-second-background-color);
+        transition: tranform 550ms cubic-bezier(.4, 0, .2, 1);
     }
 
     .media .media-item + .media-item {

@@ -95,6 +95,7 @@
 }
 .icon {
     transition: fill var(--animation);
+    cursor: pointer;
 }
 
 .icon:hover {
